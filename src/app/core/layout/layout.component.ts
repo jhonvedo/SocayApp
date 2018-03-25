@@ -38,7 +38,7 @@ export class LayoutComponent implements OnInit, OnDestroy {
 
   cardElevation$: Observable<string>;
 
-  buyNowToolbarVisible = true;
+  buyNowToolbarVisible = false;
 
   @ViewChild('scrollContainer') scrollContainer: ElementRef;
 

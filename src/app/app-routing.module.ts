@@ -10,7 +10,7 @@ const routes: Routes = [
     component: LayoutComponent,
     children: [
       {
-        path: '',
+        path: 'dashboard/dashboard',
         loadChildren: 'app/pages/dashboard/dashboard-statistics/dashboard-statistics.module#DashboardStatisticsModule',
         pathMatch: 'full'
       },
@@ -73,6 +73,10 @@ const routes: Routes = [
       {
         path: 'pages/projects',
         loadChildren: 'app/pages/projects/projects.module#ProjectsModule'
+      },
+      {
+        path: 'pages/oferta',
+        loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
       },
       {
         path: 'pages/project-details',
