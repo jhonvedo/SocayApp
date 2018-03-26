@@ -14,6 +14,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { AgmCoreModule } from '@agm/core';
 import { RouteHandlerModule } from './core/route-handler/route-handler.module';
 import { HttpClientModule } from '@angular/common/http';
+import { SettingsService } from './core/settings/settings.service';
 
 @NgModule({
   imports: [
@@ -31,7 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     PagesModule,
     RouteHandlerModule
   ],
-  providers: [],
+  providers: [SettingsService],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 

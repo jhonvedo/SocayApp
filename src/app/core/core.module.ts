@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MediaReplayService } from './utils/media-replay.service';
 import { LayoutModule } from './layout/layout.module';
+import { SettingsService } from './settings/settings.service';
 
 @NgModule({
   imports: [
@@ -9,7 +10,7 @@ import { LayoutModule } from './layout/layout.module';
     LayoutModule
   ],
   providers: [
-    MediaReplayService
+    MediaReplayService,SettingsService
   ]
 })
 export class CoreModule { }

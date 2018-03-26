@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'vr-profile-overview',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile-overview.component.scss']
 })
 export class ProfileOverviewComponent implements OnInit {
-
+  @Input() profile: any;
   constructor() { }
 
   ngOnInit() {

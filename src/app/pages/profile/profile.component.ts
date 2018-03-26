@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../app.animation';
+import { SettingsService } from '../../core/settings/settings.service';
 
 @Component({
   selector: 'vr-profile',
@@ -10,9 +11,11 @@ import { ROUTE_TRANSITION } from '../../app.animation';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  public profile:any;
+  constructor(private settingservice:SettingsService) { }
 
   ngOnInit() {
+    this.profile = this.settingservice.getUser();
   }
 
 }

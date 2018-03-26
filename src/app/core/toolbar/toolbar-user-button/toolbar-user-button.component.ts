@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { SettingsService } from '../../settings/settings.service';
 
 @Component({
   selector: 'vr-toolbar-user-button',
@@ -8,10 +9,11 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 export class ToolbarUserButtonComponent implements OnInit, AfterViewInit {
 
   isOpen: boolean;
-
-  constructor() { }
+  user:any;
+  constructor(private settingsservice:SettingsService) { }
 
   ngOnInit() {
+    this.user = this.settingsservice.getUser();
   }
 
   ngAfterViewInit() {
