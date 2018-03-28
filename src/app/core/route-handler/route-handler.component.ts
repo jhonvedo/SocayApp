@@ -360,7 +360,40 @@ export class RouteHandlerComponent implements OnInit {
     multiLevelMenuLevel4.subItems.push(multiLevelMenuLevel5);
 
     // Send the created Menu structure to Redux/ngrx (you only need to send the Top Level Item, all dropdown items will be added automatically)
-    this.store.dispatch(new fromSidenav.AddSidenavItemAction(dashboard));
+    
+    
+
+// Top Level Item (The item to click on so the dropdown opens)
+const socay = new SidenavItem({
+  name: 'Socay',
+  icon: 'dashboard',
+  subItems: [ ],
+  position: 1
+});
+
+// Sub Items for the Top Level Item (The items shown when you clicked on the dropdown item)
+// Note: The Top Level Item is added as "parent" in those items, here "dashboard" (variable from above)
+const socaySubItems = [
+  new SidenavItem({
+    name: 'Oferta',
+    route: '/pages/oferta',
+    parent: socay,
+    subItems: [ ],
+    position: 1
+  }),
+  new SidenavItem({
+    name: 'Login',
+    route: '/auth/login',
+    parent: socay,
+    subItems: [ ],
+    position: 1
+  }),
+]
+socay.subItems.push(...socaySubItems);
+
+this.store.dispatch(new fromSidenav.AddSidenavItemAction(socay));
+
+    /*this.store.dispatch(new fromSidenav.AddSidenavItemAction(dashboard));
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(inbox));
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(chat));
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(forms));
@@ -372,7 +405,7 @@ export class RouteHandlerComponent implements OnInit {
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(dragAndDrop));
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(maps));
     this.store.dispatch(new fromSidenav.AddSidenavItemAction(icons));
-    this.store.dispatch(new fromSidenav.AddSidenavItemAction(multiLevelMenu));
+    this.store.dispatch(new fromSidenav.AddSidenavItemAction(multiLevelMenu));*/
   }
 
 }

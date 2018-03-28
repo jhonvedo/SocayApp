@@ -10,6 +10,10 @@ const routes: Routes = [
     component: LayoutComponent,
     children: [
       {
+        path: '',
+        loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
+      },
+      {
         path: 'dashboard/dashboard',
         loadChildren: 'app/pages/dashboard/dashboard-statistics/dashboard-statistics.module#DashboardStatisticsModule',
         pathMatch: 'full'
