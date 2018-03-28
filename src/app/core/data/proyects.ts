@@ -1,276 +1,329 @@
 export const _PROYECTS = [
     {
-        "id": "719a627c-3e89-4c32-907f-a90874480f19",
+      "id": "103a8103-c990-4fb9-b557-5083bebaff11",
+      "background": "linear-gradient(to left, #1fa2ff, #12d8fa, #a6ffcb)",
+      "date": "17-05-2018 05:45:20 +05:00",
+      "price": "$348,575.52",
+      "codename": "PURIA",
+      "name": "exercitation commodo",
+      "due_date": "2018-01-10",
+      "category": "DOCENCIA",
+      "status": "PRESTACIÓN DE SERVICIO",
+      "about": "Commodo et Lorem nostrud pariatur quis amet anim labore. Cillum anim culpa anim est occaecat in aliquip adipisicing nisi sunt laboris elit irure. Adipisicing mollit sunt aliquip enim est. Occaecat adipisicing sunt Lorem ipsum nisi. Qui duis id dolor voluptate enim laborum. Consectetur in officia ex sint labore culpa pariatur. Mollit cillum ea aute commodo laboris dolor.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "11.png"
+        },
+        {
+          "image": "14.png"
+        },
+        {
+          "image": "20.png"
+        },
+        {
+          "image": "18.png"
+        }
+      ]
+    },
+    {
+      "id": "a1ab8b00-a8da-4d22-8b4b-3b6de26435b6",
+      "background": "linear-gradient(to left, #1cd8d2, #93edc7)",
+      "date": "22-04-2018 08:04:56 +05:00",
+      "price": "$378,350.33",
+      "codename": "GORGANIC",
+      "name": "officia ex",
+      "due_date": "2018-03-09",
+      "category": "ASEO DOMESTICO",
+      "status": "CONTRATACIÓN",
+      "about": "Qui incididunt in quis culpa sit sit. Deserunt veniam ea sint id incididunt nostrud nisi. Do aliquip proident cupidatat reprehenderit ad non. Do eu cupidatat fugiat qui nulla deserunt. Ea quis nulla nulla eu tempor magna eu tempor cupidatat elit consectetur duis ea nostrud. Reprehenderit dolore elit ut elit nisi cillum aute adipisicing. Minim magna pariatur esse laborum ad veniam et exercitation in consequat qui.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "16.png"
+        },
+        {
+          "image": "11.png"
+        },
+        {
+          "image": "11.png"
+        },
+        {
+          "image": "19.png"
+        }
+      ]
+    },
+    {
+      "id": "38243cb4-aa79-49be-902c-be392abe3d55",
+      "background": "linear-gradient(to left, #cc95c0, #dbd4b4)",
+      "date": "04-07-2018 08:44:07 +05:00",
+      "price": "$222,652.73",
+      "codename": "KEENGEN",
+      "name": "do adipisicing",
+      "due_date": "2018-03-26",
+      "category": "ASEO DOMESTICO",
+      "status": "PRESTACIÓN DE SERVICIO",
+      "about": "Enim amet et amet consectetur sit ea amet esse sunt. Nulla exercitation proident amet eu ipsum nisi enim aute nulla minim nisi et consequat nisi. Non aliquip excepteur proident tempor minim dolore aute est duis ea anim. Incididunt quis sunt proident sint ad et quis sunt reprehenderit sint deserunt. Incididunt pariatur qui eu proident velit elit sunt pariatur incididunt tempor nostrud ad eiusmod consequat. Reprehenderit ut aute amet anim excepteur veniam enim anim esse. Magna irure excepteur et exercitation ea excepteur.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "17.png"
+        },
+        {
+          "image": "8.png"
+        }
+      ]
+    },
+    {
+      "id": "1dfdac20-0749-4c56-9174-964664add50e",
+      "background": "linear-gradient(to left, #24c6dc, #514a9d)",
+      "date": "03-06-2018 08:42:13 +05:00",
+      "price": "$320,721.36",
+      "codename": "KATAKANA",
+      "name": "id elit",
+      "due_date": "2018-01-06",
+      "category": "DOCENCIA",
+      "status": "PRESTACIÓN DE SERVICIO",
+      "about": "Sit mollit aliqua elit aliqua id est fugiat nostrud voluptate irure dolor. Sint ipsum enim et laborum nostrud dolore. Enim eu tempor aliqua aliquip culpa adipisicing. Adipisicing pariatur voluptate cupidatat sunt sit labore. Adipisicing eu voluptate sint nulla quis incididunt aliqua minim nostrud commodo.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "16.png"
+        },
+        {
+          "image": "18.png"
+        }
+      ]
+    },
+    {
+      "id": "d2d77c9c-ed0f-4158-8c1e-cd287c2a273c",
+      "background": "linear-gradient(to left, #1cd8d2, #93edc7)",
+      "date": "31-03-2018 09:21:21 +05:00",
+      "price": "$136,244.71",
+      "codename": "GEEKULAR",
+      "name": "officia nostrud",
+      "due_date": "2018-02-07",
+      "category": "ASEO DOMESTICO",
+      "status": "CONTRATACIÓN",
+      "about": "Nostrud consequat dolore pariatur cupidatat esse et id in. Commodo cillum laborum voluptate quis velit aliquip dolor pariatur ut exercitation veniam labore excepteur. Aute minim Lorem incididunt adipisicing sint ut adipisicing aute eiusmod cupidatat laborum non cillum dolore. Sit excepteur commodo duis et. Voluptate proident fugiat quis id.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "16.png"
+        },
+        {
+          "image": "16.png"
+        },
+        {
+          "image": "5.png"
+        },
+        {
+          "image": "15.png"
+        }
+      ]
+    },
+    {
+      "id": "f0a107b0-98eb-45d6-8c12-792216d76276",
+      "background": "linear-gradient(to left, #f857a6, #ff5858)",
+      "date": "14-06-2018 04:02:40 +05:00",
+      "price": "$284,418.50",
+      "codename": "TINGLES",
+      "name": "voluptate cillum",
+      "due_date": "2018-01-07",
+      "category": "ASEO DOMESTICO",
+      "status": "CONTRATACIÓN",
+      "about": "Quis adipisicing in laboris magna cupidatat adipisicing enim reprehenderit nostrud. Tempor tempor fugiat sunt pariatur tempor amet. Duis in consectetur culpa est Lorem incididunt. Laboris irure enim irure et anim non aliqua.\r\n",
+      "need_skill": "",
+      "members": [
+        {
+          "image": "7.png"
+        },
+        {
+          "image": "12.png"
+        },
+        {
+          "image": "5.png"
+        },
+        {
+          "image": "20.png"
+        }
+      ]
+    },
+    {
+        "id": "1f295fbd-f7a5-4da8-a392-21de1c72f255",
+        "background": "linear-gradient(to left, #1cd8d2, #93edc7)",
+        "date": "20-05-2018 12:59:50 +05:00",
+        "price": "$208,561.39",
+        "codename": "UPDAT",
+        "name": "cupidatat aute",
+        "due_date": "2018-01-23",
+        "category": "DISEÑO GRAFICO",
+        "status": "PRESTACIÓN DE SERVICIO",
+        "about": "Ex laborum ad anim et ad eu. Lorem velit excepteur esse anim Lorem cillum. Tempor cillum nisi ipsum fugiat ipsum cupidatat do veniam exercitation ullamco occaecat.\r\n",
+        "need_skill": "JAVA",
+        "members": [
+          {
+            "image": "1.png"
+          },
+          {
+            "image": "16.png"
+          },
+          {
+            "image": "6.png"
+          },
+          {
+            "image": "10.png"
+          }
+        ]
+      },
+      {
+        "id": "7c6bbd9c-2e22-4b79-9fad-6f5f402e0fc5",
         "background": "linear-gradient(to left, #cc95c0, #dbd4b4)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$236,714.78",
-        "codename": "MUSIX",
-        "name": "fugiat ut",
-        "due_date": "2018-02-28",
-        "category": "ASEO DOMESTICO",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Proident officia adipisicing ad amet aute consectetur eu in exercitation veniam consectetur cillum. Cupidatat do duis ea cupidatat magna laboris quis ex ad occaecat et duis cillum. Est duis labore magna incididunt voluptate. Est adipisicing irure Lorem consequat incididunt nulla eiusmod qui culpa laboris elit. Velit duis ipsum do aliqua qui. Adipisicing ex veniam culpa elit dolor id veniam ex in. Enim enim aliquip ea eiusmod labore officia et minim eiusmod ex anim reprehenderit minim.\r\n",
-        "need_skill": "",
-        "members": [
-            {
-                "image": "9.png"
-            },
-            {
-                "image": "20.png"
-            },
-            {
-                "image": "1.png"
-            },
-            {
-                "image": "16.png"
-            }
-        ]
-    },
-    {
-        "id": "efbb31c8-700c-4f3a-9b74-f8fa3ea06271",
-        "background": "linear-gradient(to left, #1fa2ff, #12d8fa, #a6ffcb)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$286,103.10",
-        "codename": "ZOLAREX",
-        "name": "id laboris",
-        "due_date": "2018-01-29",
-        "category": "ASEO DOMESTICO",
+        "date": "02-04-2018 02:42:41 +05:00",
+        "price": "$352,961.90",
+        "codename": "KYAGURU",
+        "name": "proident officia",
+        "due_date": "2018-02-11",
+        "category": "PROGRAMACIÓN",
         "status": "CONTRATACIÓN",
-        "about": "Ad enim qui anim adipisicing nostrud duis do. Exercitation occaecat tempor amet nulla in est Lorem duis eiusmod. Consequat reprehenderit ipsum cupidatat irure reprehenderit aute labore sit ad excepteur nostrud. Laborum quis eu consequat nulla laboris irure deserunt Lorem elit id eiusmod nostrud incididunt consectetur. Cupidatat velit qui consequat labore enim. Lorem aliqua laboris do eu laboris ad in officia voluptate id non.\r\n",
-        "need_skill": "",
+        "about": "Ex adipisicing nostrud qui irure sint voluptate exercitation reprehenderit dolore. Deserunt labore quis magna dolore ipsum quis ea non magna aliquip officia velit. Tempor labore sint qui deserunt. Qui veniam commodo dolor ipsum occaecat esse ex laboris ipsum. Mollit officia aute veniam eiusmod sit eiusmod amet eu.\r\n",
+        "need_skill": "XAMARIN",
         "members": [
-            {
-                "image": "11.png"
-            },
-            {
-                "image": "12.png"
-            },
-            {
-                "image": "14.png"
-            },
-            {
-                "image": "10.png"
-            }
+          {
+            "image": "14.png"
+          },
+          {
+            "image": "12.png"
+          }
         ]
-    },
-    {
-        "id": "c2164d3c-6e50-431b-a5e4-31332ff5b0b7",
+      },
+      {
+        "id": "1aefbc51-0137-4ed8-8771-5ad68f1feb6f",
         "background": "linear-gradient(to left, #dd5e89, #f7bb97)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$327,719.63",
-        "codename": "OMNIGOG",
-        "name": "est dolore",
-        "due_date": "2018-02-09",
-        "category": "DOCENCIA",
-        "status": "CONTRATACIÓN",
-        "about": "In culpa cillum duis sunt eiusmod magna quis occaecat ut nisi laborum officia veniam culpa. Ea dolor irure dolor culpa consectetur officia nisi deserunt. Ullamco magna officia tempor sint Lorem consequat Lorem non do consectetur minim. Minim occaecat labore commodo ullamco. Officia deserunt excepteur voluptate voluptate occaecat ex.\r\n",
-        "need_skill": "",
-        "members": [
-            {
-                "image": "15.png"
-            },
-            {
-                "image": "1.png"
-            },
-            {
-                "image": "12.png"
-            },
-            {
-                "image": "15.png"
-            },
-            {
-                "image": "12.png"
-            }
-        ]
-    },
-    {
-        "id": "beed148b-0c68-4755-8627-70156ac39d58",
-        "background": "linear-gradient(to left, #cbad6d, #d53369)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$258,586.22",
-        "codename": "XELEGYL",
-        "name": "labore nisi",
-        "due_date": "2018-01-05",
-        "category": "ASEO DOMESTICO",
-        "status": "CONTRATACIÓN",
-        "about": "Consectetur ex quis ad incididunt reprehenderit aliqua minim qui culpa aliqua. Magna pariatur elit in aute. Sint ea ad aliquip elit proident.\r\n",
-        "need_skill": "",
-        "members": [
-            {
-                "image": "9.png"
-            }
-        ]
-    },
-    {
-        "id": "cddbad40-25cf-4735-a6bc-c955e7285fc5",
-        "background": "linear-gradient(to left, #1d976c, #93f9b9)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$163,091.23",
-        "codename": "POLARAX",
-        "name": "reprehenderit velit",
-        "due_date": "2018-03-20",
-        "category": "DOCENCIA",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Magna ea id enim non ipsum. Eu dolore culpa aute ipsum esse veniam eu eiusmod aliqua dolor deserunt tempor. Commodo adipisicing irure nostrud in ea. Fugiat exercitation culpa eiusmod enim reprehenderit nulla cupidatat amet ullamco proident proident reprehenderit sint. Ipsum esse labore ad proident officia officia.\r\n",
-        "need_skill": "",
-        "members": [
-            {
-                "image": "16.png"
-            }
-        ]
-    },
-    {
-        "id": "58a70c80-ebf4-439c-8099-9174c0f1c851",
-        "background": "linear-gradient(to left, #1fa2ff, #12d8fa, #a6ffcb)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$277,049.12",
-        "codename": "WEBIOTIC",
-        "name": "velit aliquip",
-        "due_date": "2018-03-05",
-        "category": "ASEO DOMESTICO",
-        "status": "CONTRATACIÓN",
-        "about": "Incididunt aute qui adipisicing ad sunt aliquip pariatur magna reprehenderit dolore. Minim ex elit eu tempor tempor id et ullamco pariatur ipsum voluptate. Minim consequat voluptate non ea nulla pariatur ex aliqua ullamco.\r\n",
-        "need_skill": "",
-        "members": [
-            {
-                "image": "14.png"
-            }
-        ]
-    },
-    {
-        "id": "0411c5c7-11bf-439a-bae4-f1d918e4373b",
-        "background": "linear-gradient(to left, #1d976c, #93f9b9)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$340,852.70",
-        "codename": "BEADZZA",
-        "name": "ut magna",
-        "due_date": "2018-03-02",
+        "date": "21-04-2018 07:58:00 +05:00",
+        "price": "$257,009.34",
+        "codename": "ISOPOP",
+        "name": "magna ipsum",
+        "due_date": "2018-02-13",
         "category": "DISEÑO GRAFICO",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Incididunt ea anim minim laboris magna adipisicing ad magna sunt amet. Ipsum non officia do nostrud et deserunt fugiat elit. Cupidatat adipisicing cillum aliquip deserunt fugiat. Magna anim adipisicing nisi do qui.\r\n",
-        "need_skill": "ANGULAR5",
-        "members": [
-            {
-                "image": "8.png"
-            },
-            {
-                "image": "5.png"
-            }
-        ]
-    },
-    {
-        "id": "5bacf5dd-2a82-4261-8514-89aa51baaeff",
-        "background": "linear-gradient(to left, #1cd8d2, #93edc7)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$193,177.85",
-        "codename": "EARWAX",
-        "name": "excepteur duis",
-        "due_date": "2018-03-04",
-        "category": "PROGRAMACIÓN",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Veniam cupidatat ut consequat et ea excepteur Lorem sit nostrud consectetur deserunt. Quis nostrud irure qui cupidatat aute magna dolor aliqua nostrud qui. Consequat consequat labore minim incididunt incididunt.\r\n",
+        "status": "CONTRATACIÓN",
+        "about": "Laboris exercitation aliquip in exercitation elit quis reprehenderit anim est exercitation velit do sint adipisicing. Est voluptate velit consequat adipisicing incididunt ad consequat sint ipsum consectetur cupidatat. Mollit elit esse sunt aliqua consequat nostrud laboris fugiat voluptate quis pariatur consectetur cillum consequat. Amet sint laborum ipsum aliqua fugiat cupidatat do ipsum.\r\n",
         "need_skill": "ANGULARJS",
         "members": [
-            {
-                "image": "5.png"
-            },
-            {
-                "image": "13.png"
-            },
-            {
-                "image": "13.png"
-            },
-            {
-                "image": "10.png"
-            }
+          {
+            "image": "13.png"
+          },
+          {
+            "image": "11.png"
+          }
         ]
-    },
-    {
-        "id": "491c9f21-6abb-4097-8f35-e0daa0de88b8",
-        "background": "linear-gradient(to left, #1d976c, #93f9b9)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$219,682.34",
-        "codename": "COMVEX",
-        "name": "voluptate fugiat",
-        "due_date": "2018-02-12",
+      },
+      {
+        "id": "3b3102b9-5baa-4f8a-aec7-c27971747f63",
+        "background": "linear-gradient(to left, #f857a6, #ff5858)",
+        "date": "24-04-2018 04:57:52 +05:00",
+        "price": "$239,320.14",
+        "codename": "QUINTITY",
+        "name": "occaecat laborum",
+        "due_date": "2018-02-04",
         "category": "PROGRAMACIÓN",
         "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Aliqua consectetur aliquip pariatur ea dolore consequat adipisicing nulla irure velit id velit Lorem cillum. Nulla nulla quis consectetur consectetur officia enim. Duis sit id non in ad esse nisi consequat. Labore adipisicing ex amet do ipsum ex. Elit magna aute sit laboris mollit ex cupidatat.\r\n",
-        "need_skill": "NET",
+        "about": "Dolore id pariatur laborum mollit non enim occaecat officia amet incididunt. Magna deserunt velit anim commodo laborum nisi quis anim deserunt proident id reprehenderit. Voluptate fugiat non tempor consectetur Lorem sint velit eu Lorem dolore est. Consectetur mollit velit in amet eu occaecat laborum ullamco culpa exercitation.\r\n",
+        "need_skill": "ANGULARJS",
         "members": [
-            {
-                "image": "7.png"
-            },
-            {
-                "image": "19.png"
-            }
+          {
+            "image": "20.png"
+          },
+          {
+            "image": "14.png"
+          },
+          {
+            "image": "19.png"
+          },
+          {
+            "image": "17.png"
+          },
+          {
+            "image": "11.png"
+          }
         ]
-    },
-    {
-        "id": "b0a857df-ff37-4ab0-87c7-16649c919f99",
+      },
+      {
+        "id": "d9890647-5a43-4f0e-91a0-f643a1326da9",
+        "background": "linear-gradient(to left, #f857a6, #ff5858)",
+        "date": "14-05-2018 03:51:39 +05:00",
+        "price": "$342,501.53",
+        "codename": "NORSUL",
+        "name": "labore ea",
+        "due_date": "2018-01-12",
+        "category": "DISEÑO GRAFICO",
+        "status": "PRESTACIÓN DE SERVICIO",
+        "about": "Eu dolor commodo excepteur velit adipisicing velit ex veniam duis nisi in eiusmod. Quis reprehenderit esse sunt aliqua ullamco minim ullamco consequat. Elit labore ipsum tempor officia commodo nisi ipsum officia. Consectetur mollit velit duis adipisicing. Tempor velit tempor adipisicing exercitation est excepteur cillum excepteur reprehenderit voluptate ea elit velit.\r\n",
+        "need_skill": "JAVA",
+        "members": [
+          {
+            "image": "18.png"
+          },
+          {
+            "image": "8.png"
+          },
+          {
+            "image": "12.png"
+          },
+          {
+            "image": "2.png"
+          },
+          {
+            "image": "19.png"
+          }
+        ]
+      },
+      {
+        "id": "e314a071-fb82-4958-a43a-78f1bf9e7302",
         "background": "linear-gradient(to left, #24c6dc, #514a9d)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$146,714.26",
-        "codename": "VIXO",
-        "name": "aliqua laboris",
-        "due_date": "2018-03-05",
+        "date": "26-06-2018 09:05:58 +05:00",
+        "price": "$178,962.92",
+        "codename": "ZOLARITY",
+        "name": "culpa duis",
+        "due_date": "2018-03-10",
+        "category": "PROGRAMACIÓN",
+        "status": "PRESTACIÓN DE SERVICIO",
+        "about": "Labore quis voluptate qui sunt aute eiusmod cupidatat. Est ex sunt occaecat occaecat adipisicing Lorem nisi pariatur est eiusmod elit officia. Eu adipisicing nostrud exercitation culpa tempor mollit dolore fugiat. Ea dolor eiusmod aute culpa consectetur esse voluptate Lorem non quis ad. Deserunt pariatur mollit ipsum adipisicing consequat ullamco cupidatat do laborum sunt. Proident ipsum minim ipsum dolore dolore ea quis eu veniam. Amet voluptate dolore velit nulla dolore reprehenderit ea adipisicing velit mollit commodo dolor eu id.\r\n",
+        "need_skill": "JAVA",
+        "members": [
+          {
+            "image": "9.png"
+          },
+          {
+            "image": "7.png"
+          },
+          {
+            "image": "10.png"
+          }
+        ]
+      },
+      {
+        "id": "d92c79d4-9c00-463e-8082-b684ad6bb283",
+        "background": "linear-gradient(to left, #cbad6d, #d53369)",
+        "date": "17-05-2018 08:50:49 +05:00",
+        "price": "$179,285.47",
+        "codename": "FIBRODYNE",
+        "name": "reprehenderit ipsum",
+        "due_date": "2018-01-08",
         "category": "PROGRAMACIÓN",
         "status": "CONTRATACIÓN",
-        "about": "Occaecat consequat ut id nulla. Ea aliquip nisi velit occaecat anim et sit nulla. Ex qui mollit cillum deserunt. Quis in duis culpa cillum labore dolor eiusmod sunt duis officia voluptate nulla excepteur dolore. Quis incididunt officia eu consequat esse ipsum dolore enim enim culpa.\r\n",
+        "about": "Ex do dolor ea sit in laborum aute Lorem ad id adipisicing ex. Amet dolore velit sunt tempor sint ea incididunt sit in ex eu veniam est. Et et laboris fugiat aliquip ex id dolore Lorem mollit pariatur. Ut laboris est in occaecat aliqua quis nulla nulla Lorem ad tempor labore labore. Aliqua incididunt pariatur nulla commodo in exercitation elit excepteur sunt mollit veniam magna magna. Nulla excepteur cillum occaecat ea officia duis dolore est.\r\n",
         "need_skill": "NET",
         "members": [
-            {
-                "image": "5.png"
-            },
-            {
-                "image": "18.png"
-            },
-            {
-                "image": "19.png"
-            },
-            {
-                "image": "7.png"
-            }
+          {
+            "image": "12.png"
+          },
+          {
+            "image": "1.png"
+          },
+          {
+            "image": "15.png"
+          }
         ]
-    },
-    {
-        "id": "ec1bf0a5-ea17-49af-a525-94d583494f28",
-        "background": "linear-gradient(to left, #4cb8c4, #3cd3ad)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$231,158.62",
-        "codename": "ORGANICA",
-        "name": "do aliquip",
-        "due_date": "2018-03-08",
-        "category": "DISEÑO GRAFICO",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Eu voluptate sit mollit occaecat esse duis labore sunt. Tempor esse cillum et occaecat. Qui consequat ullamco ullamco excepteur adipisicing et commodo aliquip. Duis veniam mollit et aliquip dolor nulla do incididunt nulla.\r\n",
-        "need_skill": "NET",
-        "members": [
-            {
-                "image": "20.png"
-            }
-        ]
-    },
-    {
-        "id": "76ca68c1-905d-42cb-b676-216d4a16c7ec",
-        "background": "linear-gradient(to left, #1cd8d2, #93edc7)",
-        "date": "<SyntaxError: missing ) after argument list>",
-        "price": "$263,464.05",
-        "codename": "FARMEX",
-        "name": "est in",
-        "due_date": "2018-02-14",
-        "category": "DISEÑO GRAFICO",
-        "status": "PRESTACIÓN DE SERVICIO",
-        "about": "Consequat commodo dolor veniam tempor pariatur incididunt nostrud quis aute cillum pariatur reprehenderit sunt commodo. Sit velit deserunt quis incididunt Lorem voluptate quis cupidatat dolor amet. Ipsum eu eu consequat commodo proident laboris ipsum proident aliquip Lorem amet exercitation laboris. Aute et anim elit aute incididunt eu voluptate. Aute velit nisi deserunt laboris et officia occaecat ipsum ullamco.\r\n",
-        "need_skill": "ANGULARJS",
-        "members": [
-            {
-                "image": "7.png"
-            },
-            {
-                "image": "9.png"
-            }
-        ]
-    }
-
-]
+      }
+  ]

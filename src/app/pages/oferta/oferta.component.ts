@@ -3,6 +3,7 @@ import * as moment from 'moment';
 import { ROUTE_TRANSITION } from '../../app.animation';
 import {_PROYECTS} from '../../core/data/proyects';
 
+
 @Component({
   selector: 'vr-oferta',
   templateUrl: './oferta.component.html',
@@ -39,6 +40,7 @@ export class OfertaComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(_PROYECTS);
     this.projects = _PROYECTS;
     this.filteredProjects = this.projects;
   }

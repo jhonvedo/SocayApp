@@ -32,26 +32,63 @@
             <div fxLayout="column" fxFlex="auto">
               <div class="top-row" fxLayout="row" fxLayoutAlign="space-between center">
                 <!-- <div>{{ project.date.format('LL') }}</div> -->
-                <div>{{ project.date }}</div>
+                <div>{{ project.date.toString() }}</div>
                 <button mat-icon-button type="button" [matMenuTriggerFor]="menuRef">
                   <mat-icon>more_horiz</mat-icon>
                 </button>
               </div>
               <div class="codename" fxLayout="row" fxLayoutAlign="center center" fxFlex="auto">
-                {{ project.codename }}
+                <!-- {{ project.codename }} -->
+                {{ project.name }}
               </div>
             </div>
           </div>
         </div>
-
-        <div class="details">
+       
+        <div class="details">          
           <div class="content">
-            <div class="name">{{ project.name }}</div>
+
+              <div  matRipple class="project" fxLayout="row" fxLayoutAlign="space-between center">
+                <div fxLayout="column">
+                  <div class="name">Presupuesto</div>                  
+                </div>    
+                <div fxLayout="row" fxLayoutAlign="end center">
+                  <div class="value">{{ project.price }}</div>                 
+                </div>                
+              </div>
+
+
+              <div  matRipple class="project" fxLayout="row" fxLayoutAlign="space-between center">
+                  <div fxLayout="column">
+                    <div class="name">vencimiento</div>                  
+                  </div>    
+                  <div fxLayout="row" fxLayoutAlign="end center">
+                    <div class="value">{{ project.due_date }}</div>                 
+                  </div>                
+                </div>
+                <div class="divider"></div> 
+            <!-- <div class="divider"></div> -->
+
+            <!-- <div class="name">{{ project.name }}</div> -->
+            <div class="name">Aspirantes</div>
             <div class="members" fxLayout="row">
               <div class="member" *ngFor="let member of project.members">
                 <img src="assets/img/demo/avatars/{{member.image}}">
               </div>
             </div>
+
+            <div *ngIf="project.need_skill">
+                <div class="divider"></div>
+                <div class="name" >Skills necesarias</div>
+                <div class="members" fxLayout="row" >
+                    <div class="value">
+                        <mat-chip-list class="chips">
+                          <mat-chip >{{project.need_skill}}</mat-chip>
+                        </mat-chip-list>
+                      </div>
+                </div>
+            </div>
+            
             <div class="divider"></div>
             <div class="status success"
                  [class.ongoing]="project.status === 'ONGOING'"

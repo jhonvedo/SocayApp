@@ -72,7 +72,7 @@ export class RouteHandlerComponent implements OnInit {
     const dashboardSubItems = [
       new SidenavItem({
         name: 'Dashboard',
-        route: '/',
+        route: '/dashboard/dashboard',
         parent: dashboard,
         subItems: [ ],
         position: 1,
