@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as moment from 'moment';
 import { ROUTE_TRANSITION } from '../../app.animation';
+import {_PROYECTS} from '../../core/data/proyects';
 
 @Component({
   selector: 'vr-oferta',
@@ -38,12 +39,18 @@ export class OfertaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.projects.push(
+    this.projects = _PROYECTS;
+    this.filteredProjects = this.projects;
+  }
+
+}
+  /* 
+   this.projects.push(
       {
         background: 'linear-gradient(to left, #cbad6d, #d53369)',
         date: moment(),
         codename: 'Qyntax',
-        name: 'Product Redesign',
+        name: 'Aspirantes',
         status: 'PRESTACIÓN DE SERVICIO',
         members: [
           {
@@ -214,8 +221,4 @@ export class OfertaComponent implements OnInit {
         ]
       }
     );
-
-    this.filteredProjects = this.projects;
-  }
-
-}
+    */
