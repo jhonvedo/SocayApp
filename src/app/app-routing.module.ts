@@ -14,6 +14,10 @@ const routes: Routes = [
         loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
       },
       {
+        path: 'pages/perfiles',
+        loadChildren: 'app/pages/perfiles/perfiles.module#PerfilesModule'
+      },
+      {
         path: 'dashboard/dashboard',
         loadChildren: 'app/pages/dashboard/dashboard-statistics/dashboard-statistics.module#DashboardStatisticsModule',
         pathMatch: 'full'
