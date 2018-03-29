@@ -1,0 +1,46 @@
+<div class="preview" fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card fxFlex="80%">
+    <mat-card-header>
+      <img mat-card-avatar src="assets/img/profile/{{profile.img}}">
+      <!-- <img mat-card-avatar src="assets/img/demo/avatars/3.png"> -->
+      <mat-card-subtitle>
+        Yesterday
+      </mat-card-subtitle>
+      <mat-card-title>{{profile.name}}</mat-card-title>
+    </mat-card-header>
+    <!-- <img mat-card-image src="assets/img/demo/backgrounds/pattern-1.jpg"> -->
+    <!-- <img mat-card-image src="assets/img/profile/{{profile.img}}"> -->
+    <mat-card-content>
+      <p>{{profile.about}}</p>
+    </mat-card-content>
+
+    <mat-chip-list>
+      <mat-chip selected="true" color="{{item.verify=='USER'?'accent':(item.verify=='OTHER'?'primary':'')}}" *ngFor="let item of profile.skills">{{ item.skill }}</mat-chip>
+    </mat-chip-list>
+
+    <br>
+
+    <mat-divider></mat-divider>
+
+    <mat-card-actions>
+      <div fxLayout="row">
+        <button mat-icon-button>
+          <mat-icon>share</mat-icon>
+        </button>
+        <button mat-icon-button>
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <span fxFlex></span>
+        <button mat-button>
+          Mas Información
+        </button>
+        <button mat-button>
+          Seleccionar
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+
+
+</div>

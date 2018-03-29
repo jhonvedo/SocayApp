@@ -10,29 +10,29 @@ import { RouterModule } from '@angular/router';
 import { PerfilesRoutingModule } from './perfiles.routing';
 import { ProfileModule } from '../profile/profile.module';
 import { UtilsModule } from '../../core/utils/utils.module';
-
+import {SingleProfileModule} from './single-profile/single-profile.module';
 @NgModule({
   imports: [
     CommonModule,
-    PerfilesRoutingModule,
-    FormsModule,
-    RouterModule,
+    PerfilesRoutingModule,    
     PageHeaderModule,
-    MatChipsModule,
     BreadcrumbsModule,
+    UtilsModule,
     FlexLayoutModule,
+    MatRippleModule,
+    MatListModule,
+    SingleProfileModule,
+
     MatButtonModule,
     MatIconModule,
     MatSelectModule,
     MatMenuModule,
-    MatListModule,
+    MatChipsModule,  
     MatTooltipModule,   
+    
     MatTabsModule,
-    ProfileModule,   
-    MatButtonToggleModule,
-    UtilsModule,
-    MatCardModule,    
-    MatRippleModule
+    
+    
   ],
   declarations: [PerfilesComponent],
   exports:[PerfilesComponent]
