@@ -1,104 +1,133 @@
 @import "../../../styles/_var.scss";
 
-.profile {
-  @include responsivePadding;
+.projects {
 
-  .splash {
-    background: white;
-    padding: 32px 8px;
+  @include responsivePadding();
 
-    border: 1px solid #E0E0E0;
-    //@include mat-elevation(1);
-
-    .left {
-      padding: 16px 32px;
-
-      .picture {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-right: 38px;
-
-        @include mat-elevation(4);
+  .actions {
+    .filter ::ng-deep {
+      .mat-select-trigger, .mat-select-value, .mat-select-arrow {
+        color: white;
       }
+
+      .mat-select-underline {
+        background-color: white;
+      }
+    }
+  }
+
+  .projects-container {
+    @include responsivePadding(top, true);
+    @include responsivePadding(right, true);
+  }
+
+  .project {
+    background: white;
+    @include responsiveMargin(top);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+
+    &:last-child {
+      @include responsiveMargin(right);
+    }
+
+    .header {
+      @include aspect-ratio(21, 9);
+
+      > .content {
+        color: white;
+        padding: 8px 18px 24px 24px;
+
+        .top-row {
+          font-size: 12px;
+        }
+
+        .codename {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .details {
+      padding: 20px 24px;
 
       .name {
-        font-size: 28px;
+
       }
 
-      .description, .contact {
-        margin-top: 6px;
-        font-size: 14px;
-        color: $color__text-dark;
+      .members {
+        margin-top: 16px;
 
-        .icon {
-          font-size: 18px;
-          line-height: 18px;
-          width: 18px;
-          height: 18px;
-        }
-      }
+        .member {
+          img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+          }
 
-      .actions {
-        margin-top: 6px;
-
-        .primary-button {
-          padding: 2px 32px;
-        }
-      }
-    }
-
-    .right {
-      padding: 16px 32px;
-      border-left: 1px solid #E0E0E0;
-
-      @include lt-sm {
-        border-left: none;
-      }
-
-      .info {
-        font-size: 14px;
-
-        .names {
-          .name {
-            font-weight: 500;
+          & + .member {
+            margin-left: 6px;
           }
         }
-
-        .values {
-          margin-left: 24px;
-        }
-
-        .name, .value {
-          padding: 8px 0;
-        }
-
-
       }
 
-      .social {
-        height: 40px;
-        font-size: 20px;
-        color: mat-color($color-primary);
-        cursor: pointer;
+      .divider {
+        margin: 20px auto 16px;
+      }
+
+      .status {
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+
+        &.ongoing {
+          color: mat-color($mat-green, 500);
+        }
+
+        &.finished {
+          color: mat-color($mat-orange, 500);
+        }
+
+        &.draft {
+          color: mat-color($mat-blue-grey, 500);
+        }
       }
     }
-  }
 
-  .profile-tabs {
-    margin-top: 24px;
-    background: white;
+    &:hover {
+      .overlay {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
 
-  }
-  &.primary {
-    background: mat-color($color-primary);
-  }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, .7);
+      opacity: 0;
+      visibility: hidden;
+      transition: all .25s;
 
-  &.accent {
-    background: mat-color($color-accent);
-  }
+      .overlay-content {
+        padding: 20px 24px 24px;
+        height: 100%;
 
-  &.warn {
-    background: mat-color($color-warn);
+        .overlay-actions {
+          .mat-icon-button {
+            background: white;
+            color: $color__text-dark;
+            box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
   }
 }

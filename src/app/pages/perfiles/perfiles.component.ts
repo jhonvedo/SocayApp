@@ -3,23 +3,38 @@ import * as moment from 'moment';
 import { ROUTE_TRANSITION } from '../../app.animation';
 import {_PROYECTS} from '../../core/data/proyects';
 import { SettingsService } from '../../core/settings/settings.service';
-
+import {_USERS} from '../../core/data/users';
 
 @Component({
   selector: 'vr-perfiles',
   templateUrl: './perfiles.component.html',
-  // styleUrls: ['./perfiles.component.scss'],
+  styleUrls: ['./perfiles.component.scss'],
   // animations: [...ROUTE_TRANSITION],
   // host: { '[@routeTransition]': '' }
 })
 export class PerfilesComponent implements OnInit {
 
  
-  public profile:any;
+  public profile_list:any=_USERS;
+  public arr:any;
+
+  
+
+  desktopGap = '24px';
+  mobileGap = '16px';
+
+  desktopWidth = `0 0 calc(33.3333% - ${this.desktopGap}`;
+  tabletWidth = `0 0 calc(33.3333% - ${this.desktopGap}`;
+  smallTabletWidth = `0 0 calc(50% - ${this.mobileGap}`;
+  mobileWidth = `0 0 calc(100% - ${this.mobileGap}`;
+
   constructor(private settingservice:SettingsService) { }
 
-  ngOnInit() {
-    this.profile = this.settingservice.getUser();
+  ngOnInit() {   
+    this.arr = Array.apply(null, {
+      length: this.profile_list.length/2
+    }).map(Number.call, Number);
+    console.log(this.arr);
   }
 
 }
