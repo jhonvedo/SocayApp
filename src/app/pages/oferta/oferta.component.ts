@@ -46,6 +46,7 @@ export class OfertaComponent implements OnInit {
   }
 
 }
+
   /* 
    this.projects.push(
       {

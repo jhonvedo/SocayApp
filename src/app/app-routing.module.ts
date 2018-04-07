@@ -87,6 +87,10 @@ const routes: Routes = [
         loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
       },
       {
+        path: 'pages/oferta-details/:id',
+        loadChildren: 'app/pages/oferta-details/oferta-details.module#OfertaDetailsModule'
+      },
+      {
         path: 'pages/project-details',
         loadChildren: 'app/pages/project-details/project-details.module#ProjectDetailsModule'
       },

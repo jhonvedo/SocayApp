@@ -48,6 +48,7 @@ export class SearchBarComponent implements OnInit {
           this.searchResult = filter(this.sidenavItems, (item) => {
             return item.name.toLowerCase().includes(this.inputElem.nativeElement.value)
           });
+          console.log(this.searchResult);
 
           this.cd.markForCheck();
         }
