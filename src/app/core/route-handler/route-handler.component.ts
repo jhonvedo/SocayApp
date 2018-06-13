@@ -388,6 +388,13 @@ const socaySubItems = [
     subItems: [ ],
     position: 1
   }),
+  new SidenavItem({
+    name: 'Perfiles',
+    route: '/pages/perfiles',
+    parent: socay,
+    subItems: [ ],
+    position: 1
+  })
 ]
 socay.subItems.push(...socaySubItems);
 

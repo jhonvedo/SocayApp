@@ -14,6 +14,10 @@ const routes: Routes = [
         loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
       },
       {
+        path: 'pages/perfiles',
+        loadChildren: 'app/pages/perfiles/perfiles.module#PerfilesModule'
+      },
+      {
         path: 'dashboard/dashboard',
         loadChildren: 'app/pages/dashboard/dashboard-statistics/dashboard-statistics.module#DashboardStatisticsModule',
         pathMatch: 'full'
@@ -81,6 +85,10 @@ const routes: Routes = [
       {
         path: 'pages/oferta',
         loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
+      },
+      {
+        path: 'pages/oferta-details/:id',
+        loadChildren: 'app/pages/oferta-details/oferta-details.module#OfertaDetailsModule'
       },
       {
         path: 'pages/project-details',

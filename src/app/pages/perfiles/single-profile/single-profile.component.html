@@ -1,0 +1,59 @@
+<div class="content">
+  <mat-card>
+    <mat-card-header>
+      <img mat-card-avatar src="assets/img/profile/{{profile.img}}">
+
+      <mat-card-subtitle>
+        Yesterday
+      </mat-card-subtitle>
+      <mat-card-title>{{profile.name}}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p>{{profile.about}}</p>
+    </mat-card-content>
+
+    <div fxLayout="row">
+      <mat-chip-list fxLayoutAlign="start center">
+        <mat-chip selected="true" matTooltip="{{item.verify=='USER'?'Verificado por usuario Socay':(item.verify=='OTHER'?'Verificado por referencia':'No Esta Verificado')}}"
+          color="{{item.verify=='USER'?'accent':(item.verify=='OTHER'?'primary':'default')}}" *ngFor="let item of profile.skills">{{ item.skill }}</mat-chip>
+      </mat-chip-list>
+      <span fxFlex></span>
+      <!-- filter_9_plus filter -->
+      <div fxLayoutAlign="end end" matTooltip="2 trabajos realizados en Socay">
+        <mat-icon class="chevron">filter_2</mat-icon>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <br>
+
+    <mat-divider></mat-divider>
+
+    <mat-card-actions>
+      <div fxLayout="row">
+        <button mat-icon-button>
+          <mat-icon>share</mat-icon>
+        </button>
+        <button mat-icon-button>
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <span fxFlex></span>
+        <button mat-button>
+          Mas Información
+        </button>
+        <button mat-button>
+          Seleccionar
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>
