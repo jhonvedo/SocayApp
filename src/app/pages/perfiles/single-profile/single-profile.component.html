@@ -12,6 +12,25 @@
     <mat-card-content>
       <p>{{profile.about}}</p>
     </mat-card-content>
+    <mat-card-content>
+     
+        <div ng2-carouselamos class="slides-wrapper" [items]="items" [$prev]="prev" [$next]="next" [$item]="item" >
+        </div>
+        <!-- [width]="200"  -->
+        <ng-template #prev>
+          <img height="42" width="42" src="assets/img/prev.png" />
+        </ng-template>
+        <ng-template #next>
+          <img height="42" width="42" src="assets/img/next.png" />
+        </ng-template>
+        <ng-template #item let-item let-i="index">
+          <div style="margin-left: 8px;margin-right: 8px;" class="items">
+            <img src="{{ item.name }}">
+          </div>
+        </ng-template>
+    
+    </mat-card-content>
+    
 
     <div fxLayout="row">
       <mat-chip-list fxLayoutAlign="start center">

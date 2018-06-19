@@ -11,6 +11,8 @@ import { PerfilesRoutingModule } from './perfiles.routing';
 import { ProfileModule } from '../profile/profile.module';
 import { UtilsModule } from '../../core/utils/utils.module';
 import {SingleProfileModule} from './single-profile/single-profile.module';
+import { FiltroPerfilModule } from '../filtro-perfil/filtro-perfil.module';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -22,6 +24,11 @@ import {SingleProfileModule} from './single-profile/single-profile.module';
     MatRippleModule,
     MatListModule,
     SingleProfileModule,
+
+
+    FiltroPerfilModule,
+
+ 
 
     MatButtonModule,
     MatIconModule,

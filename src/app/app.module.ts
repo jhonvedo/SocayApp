@@ -15,7 +15,7 @@ import { AgmCoreModule } from '@agm/core';
 import { RouteHandlerModule } from './core/route-handler/route-handler.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsService } from './core/settings/settings.service';
-import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+
 
 @NgModule({
   imports: [
@@ -23,7 +23,7 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
     BrowserAnimationsModule,
     HttpClientModule,
     StoreModule.forRoot(reducers),
-    Ng2CarouselamosModule,
+   
     !environment.production ? StoreDevtoolsModule.instrument({ maxAge: 50 }) : [],
     EffectsModule.forRoot([]),
     AgmCoreModule.forRoot({

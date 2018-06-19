@@ -8,6 +8,8 @@ import { MatButtonModule,MatTableModule,MatChipsModule,MatSelectModule,
   MatMenuModule,MatTooltipModule, MatCardModule, MatIconModule, MatListModule, MatTabsModule } from '@angular/material';
 import { BreadcrumbsModule } from '../../../core/breadcrumbs/breadcrumbs.module';//
 import { RouterModule } from '@angular/router';//
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+
 
 @NgModule({
   imports: [
@@ -26,7 +28,9 @@ import { RouterModule } from '@angular/router';//
     MatSelectModule,
     MatMenuModule,
     MatTooltipModule,
-    MatTableModule
+    MatTableModule,
+
+    Ng2CarouselamosModule
 
    
 
