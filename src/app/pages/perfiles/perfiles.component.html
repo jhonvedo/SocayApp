@@ -7,13 +7,24 @@
           <vr-page-header [height]="'180px'" background="url(/assets/img/demo/headers/pattern-3.png)" [reverse]="true"></vr-page-header>
         
           <div class="container">
-        
+             
             <div fxLayout="row" fxLayoutAlign="space-between center">
               <vr-breadcrumbs [currentPage]="'Oferta'" [header]="'primary'"></vr-breadcrumbs>
              
               
               <div class="actions" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="16px" fxLayoutGap.gt-sm="24px">
-                  <vr-filtro-perfil></vr-filtro-perfil>
+                  <!-- <vr-filtro-perfil></vr-filtro-perfil> -->
+                  <div class="actions" fxLayout="row" fxLayoutAlign="end center" [fxLayoutGap]="mobileGap" [fxLayoutGap.gt-sm]="desktopGap">
+                      <mat-form-field>                         
+                          <mat-label  style="color: white!important;">Tipo de Servicio</mat-label>
+                           <mat-select class="filter" >                          
+                          <mat-option value="ALL">All</mat-option>
+                          <mat-option value="PRESTACIÓN DE SERVICIO">Prestación de servicios</mat-option>
+                          <mat-option value="CONTRATACIÓN">Contratación</mat-option>                          
+                        </mat-select>
+                      </mat-form-field>
+                      <button type="button" mat-raised-button color="primary">Filtrar</button>
+                    </div>
                 
                
                 </div>

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../app.animation';
 import { SettingsService } from '../../core/settings/settings.service';
+import { ActivatedRoute } from '@angular/router';
+import {_USERS} from '../../core/data/users';
 
 @Component({
   selector: 'vr-profile',
@@ -12,10 +14,14 @@ import { SettingsService } from '../../core/settings/settings.service';
 export class ProfileComponent implements OnInit {
 
   public profile:any;
-  constructor(private settingservice:SettingsService) { }
+  constructor(private settingservice:SettingsService,private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    this.profile = this.settingservice.getUser();
+
+    this.activatedRoute.params.subscribe(params => {
+      var id = params['id']; 
+      this.profile=_USERS.find(x=>x.id == id); 
+    });
   }
 
 }

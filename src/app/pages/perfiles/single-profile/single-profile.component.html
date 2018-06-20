@@ -43,20 +43,8 @@
         <mat-icon class="chevron">filter_2</mat-icon>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
     <br>
-
     <mat-divider></mat-divider>
-
     <mat-card-actions>
       <div fxLayout="row">
         <button mat-icon-button>
@@ -66,12 +54,13 @@
           <mat-icon>favorite</mat-icon>
         </button>
         <span fxFlex></span>
-        <button mat-button>
-          Mas Información
+        <button mat-button type="button" [routerLink]="['/pages/profile/',profile.id]">
+          Más Información
         </button>
-        <button mat-button>
+        
+        <!-- <button mat-button>
           Seleccionar
-        </button>
+        </button> -->
       </div>
     </mat-card-actions>
   </mat-card>

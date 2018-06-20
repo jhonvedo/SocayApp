@@ -30,9 +30,4 @@ export class SingleProfileComponent implements OnInit {
       { name: 'assets/img/demo/avatars/12.png' },
     ];
   }
-
-
-
-
-
 }

@@ -21,7 +21,7 @@ export class OfertaDetailsComponent implements OnInit,OnDestroy  {
     this.sub = this.activatedRoute.params.subscribe(params => {
        var id = params['id']; // (+) converts string 'id' to a number
        this.project=_PROYECTS.find(x=>x.id == id); 
-       console.log(this.project);
+     //  console.log(this.project);
        /*this.project = {
         background: 'linear-gradient(to left, #cbad6d, #d53369)',
         date: moment(),

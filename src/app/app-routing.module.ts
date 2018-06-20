@@ -9,9 +9,13 @@ const routes: Routes = [
     path: '',
     component: LayoutComponent,
     children: [
+      // {
+      //   path: '',
+      //   loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
+      // },
       {
         path: '',
-        loadChildren: 'app/pages/oferta/oferta.module#OfertaModule'
+        loadChildren: 'app/pages/perfiles/perfiles.module#PerfilesModule'
       },
       {
         path: 'pages/perfiles',
@@ -47,9 +51,13 @@ const routes: Routes = [
         loadChildren: 'app/pages/inbox/inbox.module#InboxModule'
       },
       {
-        path: 'pages/profile',
+        path: 'pages/profile/:id',
         loadChildren: 'app/pages/profile/profile.module#ProfileModule'
       },
+      // {
+      //   path: 'pages/profile',
+      //   loadChildren: 'app/pages/profile/profile.module#ProfileModule'
+      // },
       {
         path: 'tables/simple-table',
         loadChildren: 'app/pages/tables/simple-table/simple-table.module#SimpleTableModule'

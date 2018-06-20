@@ -16,10 +16,14 @@
     <div class="section">
       <div class="heading">SKILLS</div>
       <div class="content">
-        <mat-chip-list>
+          <mat-chip-list fxLayoutAlign="start center">
+              <mat-chip selected="true" matTooltip="{{item.verify=='USER'?'Verificado por usuario Socay':(item.verify=='OTHER'?'Verificado por referencia':'No Esta Verificado')}}"
+                color="{{item.verify=='USER'?'accent':(item.verify=='OTHER'?'primary':'default')}}" *ngFor="let item of profile.skills">{{ item.skill }}</mat-chip>
+            </mat-chip-list>
+        <!-- <mat-chip-list>
           <mat-chip color="{{item.verify=='USER'?'accent':(item.verify=='OTHER'?'primary':'')}}" *ngFor="let item of profile.skills">{{ item.skill }}</mat-chip>
         
-        </mat-chip-list>
+        </mat-chip-list> -->
       </div>
     </div>
 

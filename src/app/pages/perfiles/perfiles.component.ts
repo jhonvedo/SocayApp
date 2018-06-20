@@ -17,9 +17,6 @@ export class PerfilesComponent implements OnInit {
  
   public profile_list:any=_USERS;
   public arr:any;
-
-  
-
   desktopGap = '24px';
   mobileGap = '16px';
 
@@ -27,6 +24,8 @@ export class PerfilesComponent implements OnInit {
   tabletWidth = `0 0 calc(33.3333% - ${this.desktopGap}`;
   smallTabletWidth = `0 0 calc(50% - ${this.mobileGap}`;
   mobileWidth = `0 0 calc(100% - ${this.mobileGap}`;
+  
+
 
   constructor(private settingservice:SettingsService) { }
 

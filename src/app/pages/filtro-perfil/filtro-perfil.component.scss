@@ -1,18 +1,27 @@
 @import "../../../styles/_var.scss";
 
+
+
 .projects {
 
   @include responsivePadding();
 
   .actions {
+   
+    
     .filter ::ng-deep {
-      .mat-select-trigger, .mat-select-value, .mat-select-arrow {
-        color: white;
-      }
 
+      .mat-select-trigger, .mat-select-value, .mat-select-arrow, .mat-select-placeholder {
+        color: white!important;        
+      }
       .mat-select-underline {
         background-color: white;
       }
+      
+    
+    }
+    .filter ::placeholder{
+      color: white;      
     }
   }
 
