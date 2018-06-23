@@ -15,20 +15,26 @@
         <div fxLayout="column" fxLayoutAlign="space-between">
           <div>
             <div class="name">{{profile.name}}</div>
-            <div class="description">Angular 2, NodeJS & CSS3 Expert - Web Developer</div>
-            <div class="contact" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="6px">
+            <div class="description">Profesión</div>
+            <br>
+            <!-- <span>Contratar <i class="fa fa-briefcase"></i></span> -->
+            <button mat-fab matTooltip="Contratar">
+               <mat-icon>payment</mat-icon>
+             </button>
+            
+            <!-- <div class="contact" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="6px">
               <mat-icon class="icon">mail</mat-icon>
               <span>{{profile.email}}</span>
-            </div>
+            </div> -->
           </div>
 
           <div class="actions" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="12px">
-            <button class="primary-button" type="button" mat-raised-button color="primary">
+            <!-- <button class="primary-button" type="button" mat-raised-button color="primary">
               Contact
             </button>
             <button class="secondary-button" type="button" mat-button color="primary">
               Resume
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -37,36 +43,37 @@
       <div class="right" fxLayout="column" fxLayoutAlign="space-between">
         <div class="info" fxLayout="row">
           <div class="names">
-            <div class="name">Availability:</div>
-            <div class="name">Address:</div>
-            <div class="name">Telephone:</div>
+            <div class="name">Ubicación:</div>
+            <!-- <div class="name">Address:</div>
+            <div class="name">Telephone:</div> -->
           </div>
           <div class="values">
-            <div class="value">Full-time (40h/week)</div>
-            <div class="value">{{profile.address}}</div>
-            <div class="value">{{profile.phone}}</div>
+            <div class="value">Medellín - Antioquia</div>
+            <!-- <div class="value">{{profile.address}}</div>
+            <div class="value">{{profile.phone}}</div> -->
           </div>
         </div>
 
         <div class="social" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="32px">
-          <i class="fa fa-github"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-facebook"></i>
-          <i class="fa fa-linkedin"></i>
-          <i class="fa fa-dribbble"></i>
-          <i class="fa fa-stack-overflow"></i>
+          <!-- <i class="fa fa-github"></i> -->
+          <i class="fa fa-twitter" matTooltip="Red Verificada"></i>
+          <i class="fa fa-facebook" matTooltip="Red Verificada"></i>
+          <i class="fa fa-linkedin" matTooltip="Red Verificada"></i>
+          <!-- <i class="fa fa-dribbble"></i>
+          <i class="fa fa-stack-overflow"></i> -->
         </div>
       </div>
 
     </div>
 
     <mat-tab-group class="profile-tabs clean-tabs mat-elevation-z4">
-      <mat-tab label="OVERVIEW">
+     
+      <mat-tab label="Detalles">
         <vr-profile-overview [profile]="profile"></vr-profile-overview>
       </mat-tab>
-      <mat-tab label="TIMELINE" [disabled]="true">
+      <mat-tab label="Experiencia">
       </mat-tab>
-      <mat-tab label="STATISTICS" [disabled]="true">
+      <mat-tab label="Reputación">
       </mat-tab>
     </mat-tab-group>
 
