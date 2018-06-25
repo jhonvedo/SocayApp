@@ -7,6 +7,7 @@ import { ProfileOverviewComponent } from './profile-overview/profile-overview.co
 import { BreadcrumbsModule } from '../../core/breadcrumbs/breadcrumbs.module';
 import { PageHeaderModule } from '../../core/page-header/page-header.module';
 import { ProfileRoutingModule } from './profile.routing';
+import { ProfileRecordComponent } from './profile-record/profile-record.component';
 
 @NgModule({
   imports: [
@@ -39,6 +40,6 @@ import { ProfileRoutingModule } from './profile.routing';
     // 
     // MatTableModule,
   ],
-  declarations: [ProfileComponent, ProfileOverviewComponent]
+  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent]
 })
 export class ProfileModule { }
