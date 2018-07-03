@@ -15,6 +15,7 @@ import { AgmCoreModule } from '@agm/core';
 import { RouteHandlerModule } from './core/route-handler/route-handler.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsService } from './core/settings/settings.service';
+import { StarRatingModule } from 'angular-star-rating';
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { SettingsService } from './core/settings/settings.service';
     BrowserAnimationsModule,
     HttpClientModule,
     StoreModule.forRoot(reducers),
+
+    
    
     !environment.production ? StoreDevtoolsModule.instrument({ maxAge: 50 }) : [],
     EffectsModule.forRoot([]),
@@ -32,7 +35,10 @@ import { SettingsService } from './core/settings/settings.service';
     AppRoutingModule,
     CoreModule,
     PagesModule,
-    RouteHandlerModule
+    RouteHandlerModule,
+
+
+     StarRatingModule.forRoot(),
   ],
   providers: [SettingsService],
   declarations: [AppComponent],

@@ -8,6 +8,7 @@ import { BreadcrumbsModule } from '../../core/breadcrumbs/breadcrumbs.module';
 import { PageHeaderModule } from '../../core/page-header/page-header.module';
 import { ProfileRoutingModule } from './profile.routing';
 import { ProfileRecordComponent } from './profile-record/profile-record.component';
+import { StarRatingModule } from 'angular-star-rating';
 
 @NgModule({
   imports: [
@@ -21,7 +22,10 @@ import { ProfileRecordComponent } from './profile-record/profile-record.componen
     MatChipsModule,
     BreadcrumbsModule,
     MatCardModule,
-    MatTooltipModule
+    MatTooltipModule,
+    
+
+    StarRatingModule
 
     // CommonModule,
     // UtilsModule,

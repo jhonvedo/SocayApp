@@ -76,6 +76,32 @@ https://www.json-generator.com/
   }
 ]
 
+
+--experiencia
+[
+  '{{repeat(10, 12)}}',
+  {
+    
+   cliente: '{{surname()}}',   
+    calificaciones:[
+      {nombre:'Satisfacción',calificacion:'{{integer(3, 5)}}'},
+      {nombre:'Responsabilidad',calificacion:'{{integer(3, 5)}}'},
+      {nombre:'Puntualidad',calificacion:'{{integer(3, 5)}}'},
+      {nombre:'Modales',calificacion:'{{integer(3, 5)}}'}
+    ],
+    observacion:'{{lorem(1, "paragraphs")}}' ,
+    skills: [
+      '{{repeat(integer(1, 5))}}',      
+      '{{random("ANGULARJS","ANGULAR5","NET","XAMARIN","JAVA")}}'      
+
+    ],
+    fecha:'{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-dd")}}'
+
+
+  }
+]
+
+
 template url : https://elasticui.visurel.com/
 
 deploy in firebase : https://coryrylan.com/blog/deploy-angular-cli-apps-to-firebase
