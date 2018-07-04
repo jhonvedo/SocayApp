@@ -9,6 +9,28 @@ import { MediaReplayService } from './core/utils/media-replay.service';
 export class AppComponent {
 
   items: Array<any> = []
+  public rate:number=3;
+
+  public completeListener(item){
+    console.log(item);
+    return true;
+  }
+  public timelineData:Array<Object> =[
+    {
+      title:"Step 1",
+      icon:'<i class="fa fa-home"></i>',
+      content:"Hello World",
+      complete:false
+    },
+    {
+      title:"Step 2",
+      icon:'<i class="fa fa-home"></i>',
+      content:"Following step to complete",
+      complete:false
+    }
+  ];
+
+
   //noinspection JSUnusedLocalSymbols
   constructor(
     mediaReplay: MediaReplayService // workaround for Flex-Layout to receive the initial value

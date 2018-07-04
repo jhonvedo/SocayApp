@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { TimeLineModel } from '../../../core/time-line/time-line.model';
 
 @Component({
   selector: 'vr-profile-record',
@@ -7,9 +8,18 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProfileRecordComponent implements OnInit {
 @Input() records:any[]=[];
+
+  public timelineData:TimeLineModel[] = [];
   constructor() { }
 
   ngOnInit() {
+    if(this.records){
+      this.records.forEach(item => {
+        var line:TimeLineModel=new TimeLineModel();
+        
+
+      });
+    }
   }
   public click(event){
     console.log(event);

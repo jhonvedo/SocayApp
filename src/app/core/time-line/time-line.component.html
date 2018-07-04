@@ -1,0 +1,42 @@
+<!-- <ul class="timeline">
+    <li *ngFor="let item of items; index as i">
+      <a href="javascript:void(0)" (click)="onClick(i)">
+        <div class="timeline-badge {{item.complete?'primary':''}}" [innerHTML]="item.icon">
+        </div>
+      </a>
+  
+      <div class="timeline-panel {{item.complete?'completedEvent':''}}">
+        <div class="timeline-heading">
+          <div class="timeline-title" *ngIf="item.titleHtml" [innerHTML]="item.titleHtml"></div>
+          <h4 class="timeline-title" *ngIf="!item.titleHtml">{{item.title}}</h4>
+        </div>
+        <div class="timeline-body">
+            <div *ngIf="item.contentHtml" [innerHTML]="item.contentHtml"></div>
+            <p *ngIf="!item.contentHtml">{{item.content}}</p>        
+        </div>
+      </div>
+    </li>
+  </ul> -->
+  <ul class="timeline">
+      <li>
+        <a href="javascript:void(0)" (click)="onClick(i)">
+          <div class="timeline-badge primary">
+              <ng-content select="[icon]"></ng-content>
+          </div>
+        </a>    
+        <div class="timeline-panel ">
+          <div class="timeline-heading">
+              <ng-content select="[heading]"></ng-content>
+            <!-- <div class="timeline-title" *ngIf="item.titleHtml" [innerHTML]="item.titleHtml"></div>
+            <h4 class="timeline-title" *ngIf="!item.titleHtml">{{item.title}}</h4> -->
+          </div>
+          <div class="timeline-body">            
+              <!-- <p *ngIf="item.content">{{item.content}}</p>   -->
+              <!-- <div *ngIf="!item.content" class="inner-content"> -->
+                  <ng-content select="[content]"></ng-content>
+                  <!-- <ng-content></ng-content> -->
+                <!-- </div> -->
+          </div>
+        </div>
+      </li>
+    </ul>

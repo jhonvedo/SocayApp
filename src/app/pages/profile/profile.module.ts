@@ -8,7 +8,10 @@ import { BreadcrumbsModule } from '../../core/breadcrumbs/breadcrumbs.module';
 import { PageHeaderModule } from '../../core/page-header/page-header.module';
 import { ProfileRoutingModule } from './profile.routing';
 import { ProfileRecordComponent } from './profile-record/profile-record.component';
-import { StarRatingModule } from 'angular-star-rating';
+import { RatingModule } from '../../core/rating/rating.module';
+import { VerticalTimelineModule } from 'angular-vertical-timeline';
+import { TimeLineModule } from '../../core/time-line/time-line.module';
+
 
 @NgModule({
   imports: [
@@ -24,8 +27,11 @@ import { StarRatingModule } from 'angular-star-rating';
     MatCardModule,
     MatTooltipModule,
     
+    RatingModule,
+    VerticalTimelineModule,
+    TimeLineModule,
 
-    StarRatingModule
+    
 
     // CommonModule,
     // UtilsModule,
