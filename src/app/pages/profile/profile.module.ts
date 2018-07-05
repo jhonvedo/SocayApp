@@ -11,6 +11,7 @@ import { ProfileRecordComponent } from './profile-record/profile-record.componen
 import { RatingModule } from '../../core/rating/rating.module';
 import { VerticalTimelineModule } from 'angular-vertical-timeline';
 import { TimeLineModule } from '../../core/time-line/time-line.module';
+import { ProfileRateComponent } from './profile-rate/profile-rate.component';
 
 
 @NgModule({
@@ -50,6 +51,6 @@ import { TimeLineModule } from '../../core/time-line/time-line.module';
     // 
     // MatTableModule,
   ],
-  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent]
+  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent, ProfileRateComponent]
 })
 export class ProfileModule { }
