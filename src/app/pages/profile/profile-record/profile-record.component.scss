@@ -1,5 +1,14 @@
 @import "../../../../styles/_var.scss";
 
+.picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 38px;
+
+  @include mat-elevation(4);
+}
+
 .profile-overview {
   @include responsivePadding();
   background: #F4F4F4;
@@ -119,3 +128,4 @@
     }
   }
 }
+

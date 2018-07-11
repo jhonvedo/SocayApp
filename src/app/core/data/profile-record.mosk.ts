@@ -1,6 +1,6 @@
 export const _PROFILE_RECORD=[
     {
-      "cliente": "Henderson",
+      "photo":"46.jpg","cliente": "Henderson",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -30,7 +30,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-04-16"
     },
     {
-      "cliente": "Nieves",
+      "photo":"46.jpg","cliente": "Nieves",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -56,7 +56,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-01-08"
     },
     {
-      "cliente": "Black",
+      "photo":"46.jpg","cliente": "Black",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -82,7 +82,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-02-27"
     },
     {
-      "cliente": "Newman",
+      "photo":"46.jpg","cliente": "Newman",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -110,7 +110,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-05-16"
     },
     {
-      "cliente": "Duncan",
+      "photo":"46.jpg","cliente": "Duncan",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -139,7 +139,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-05-01"
     },
     {
-      "cliente": "Acevedo",
+      "photo":"46.jpg","cliente": "Acevedo",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -168,7 +168,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-04-06"
     },
     {
-      "cliente": "Finley",
+      "photo":"46.jpg","cliente": "Finley",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -195,7 +195,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-05-28"
     },
     {
-      "cliente": "Elliott",
+      "photo":"46.jpg","cliente": "Elliott",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -224,7 +224,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-06-23"
     },
     {
-      "cliente": "Gilmore",
+      "photo":"46.jpg","cliente": "Gilmore",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -250,7 +250,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-03-12"
     },
     {
-      "cliente": "Mcclain",
+      "photo":"46.jpg","cliente": "Mcclain",
       "calificaciones": [
         {
           "nombre": "Satisfacción",
@@ -279,7 +279,7 @@ export const _PROFILE_RECORD=[
       "fecha": "2018-06-18"
     },
     {
-      "cliente": "Goodwin",
+      "photo":"46.jpg","cliente": "Goodwin",
       "calificaciones": [
         {
           "nombre": "Satisfacción",

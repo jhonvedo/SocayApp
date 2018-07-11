@@ -16,6 +16,7 @@ import { ProfileRateComponent } from './profile-rate/profile-rate.component';
 
 @NgModule({
   imports: [
+   
     CommonModule,
     ProfileRoutingModule,
     FlexLayoutModule,

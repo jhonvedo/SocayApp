@@ -22,24 +22,49 @@
 </div> -->
 
 <vr-time-line-global>
-    <vr-time-line *ngFor="let record of records; index as i">
-      
-            <div icon>
-                <!-- <img mat-card-avatar src="assets/img/profile/46.jpg">               -->
-            </div>
-        <div heading><b>{{record.cliente}}</b></div>
+  <vr-time-line *ngFor="let record of records; index as i">
+    <!-- <div icon>
+                <i class="fas fa-angle-right"></i>
+                check_circle 
+                <md-icon>favorite</md-icon> 
+                 <img mat-card-avatar src="assets/img/profile/46.jpg">              
+            </div> -->
+    <div heading>
+        <div class="left" fxLayout="row">
 
-        <div content class="event" fxLayout="row" (click)="click(record)">
-            <div class="dot primary">a</div>
-            <div class="line">eee</div>
-            <div class="info">
-              <div class="when">{{record.fecha}}</div>
-              <div class="name">{{record.cliente}}</div>
-              <vr-rating [rating]="promedioCalificacion(record)"></vr-rating>
-              <div class="description">{{record.observacion}}</div>
+            <img fxFlex="50px" class="picture" src="assets/img/profile/{{record.photo}}">
+    
+            <div fxLayout="column" fxLayoutAlign="space-between">
+              <div>
+                <div class="name"><b>{{record.cliente}}</b></div>
+                <div class="description">{{record.fecha | date: 'dd/MM/yyyy'}}</div>
+                <vr-rating [rating]="promedioCalificacion(record)"></vr-rating>
+                <br>
+              </div>
+    
+              
             </div>
-        </div>      
-    </vr-time-line>
+    
+          </div>
+      <!-- <img fxFlex="50px" class="picture" src="assets/img/profile/46.jpg" />
+        <b>{{record.cliente}}</b> -->
+     
+    
+    </div>
+
+    <div content class="event" fxLayout="row" (click)="click(record)">
+      <!-- <div class="dot primary">a</div>
+            <div class="line">eee</div> -->
+      <div class="info">
+        <!-- <div class="when">{{record.fecha}}</div> -->
+        <!-- <div class="name">        
+          {{record.cliente}}
+        </div> -->
+       
+        <div class="description">{{record.observacion}}</div>
+      </div>
+    </div>
+  </vr-time-line>
 </vr-time-line-global>
 
 

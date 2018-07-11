@@ -1,3 +1,10 @@
-<p>
-  rating works!{{rating}}
-</p>
+
+<!-- <div *ngFor="let start of starts">
+    [ngClass]="{'first': true, 'second': true, 'third': false}"
+</div> -->
+<!-- <i class="fa fa-star text-primary"></i>
+<i class="fa fa-star-half text-primary"></i> -->
+<div matTooltip="{{new_rating}}">
+    <i *ngFor="let start of starts" class="fa " [ngClass]="{' fa-star text-primary ': start=='COMPLETA'}"></i>
+</div>
+

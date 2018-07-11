@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RatingComponent } from './rating.component';
+import { MatTooltipModule } from '@angular/material';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MatTooltipModule
   ],
   declarations: [RatingComponent],
   exports:[RatingComponent]
