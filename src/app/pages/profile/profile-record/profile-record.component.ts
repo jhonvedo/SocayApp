@@ -22,7 +22,7 @@ export class ProfileRecordComponent implements OnInit {
     }
   }
   public click(event){
-    console.log(event);
+   // console.log(event);
   }
 
 

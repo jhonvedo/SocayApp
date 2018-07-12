@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProfileComponent } from './profile.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { MatButtonModule, MatChipsModule, MatIconModule, MatTabsModule, MatCardModule, MatTooltipModule } from '@angular/material';
+import { MatButtonModule, MatChipsModule, MatIconModule, MatTabsModule, MatCardModule, MatTooltipModule, MatDialogModule } from '@angular/material';
 import { ProfileOverviewComponent } from './profile-overview/profile-overview.component';
 import { BreadcrumbsModule } from '../../core/breadcrumbs/breadcrumbs.module';
 import { PageHeaderModule } from '../../core/page-header/page-header.module';
@@ -11,7 +11,9 @@ import { ProfileRecordComponent } from './profile-record/profile-record.componen
 import { RatingModule } from '../../core/rating/rating.module';
 import { VerticalTimelineModule } from 'angular-vertical-timeline';
 import { TimeLineModule } from '../../core/time-line/time-line.module';
-import { ProfileRateComponent } from './profile-rate/profile-rate.component';
+import { ProfileRateComponent, ComponentDescriptionsDialogComponent } from './profile-rate/profile-rate.component';
+import { ProfileRateModalComponent } from './profile-rate-modal/profile-rate-modal.component';
+import { UICarouselModule } from "ui-carousel";
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { ProfileRateComponent } from './profile-rate/profile-rate.component';
     RatingModule,
     VerticalTimelineModule,
     TimeLineModule,
-
+    MatDialogModule,
+    UICarouselModule,
     
 
     // CommonModule,
@@ -52,6 +55,7 @@ import { ProfileRateComponent } from './profile-rate/profile-rate.component';
     // 
     // MatTableModule,
   ],
-  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent, ProfileRateComponent]
+  entryComponents:[ProfileRateModalComponent,ComponentDescriptionsDialogComponent],
+  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent, ProfileRateComponent, ProfileRateModalComponent,ComponentDescriptionsDialogComponent]
 })
 export class ProfileModule { }

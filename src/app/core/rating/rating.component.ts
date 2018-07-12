@@ -31,7 +31,7 @@ export class RatingComponent implements OnInit {
       this.starts.push(tipo);
       
     }
-    console.log(this.starts);
+   // console.log(this.starts);
 
   }
 
