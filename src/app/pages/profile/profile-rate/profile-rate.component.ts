@@ -14,7 +14,13 @@ import { _PRODUCTS } from '../../../core/data/products.mosk';
 export class ProfileRateComponent implements OnInit {
   dialogRef: MatDialogRef<ProfileRateModalComponent>;
   dialogRefDescripcion: MatDialogRef<ComponentDescriptionsDialogComponent>;
-  productos=_PRODUCTS;
+  productos:any[]=_PRODUCTS;
+  descuento=0;
+  subtotal=0;
+  total=0;
+  selectedIndex = 0;
+  lastIndex = 1;
+
 
   cantidades = Array.from(new Array(30),(val,index)=>index);
   constructor(public dialog: MatDialog) { }
@@ -53,6 +59,24 @@ export class ProfileRateComponent implements OnInit {
 
   cambioCantidad(item){
     item.subtotal = item.precio*item.cant;
+    this.calcularTotales();
+  }
+  calcularTotales(){  
+    this.subtotal=0; 
+    this.productos.filter(item=>{
+      if(item.subtotal){    
+        this.subtotal+=item.subtotal;
+      }
+    });
+    this.total=this.subtotal;
+  }
+
+  previousPage() {
+    this.selectedIndex -= 1;
+  }
+
+  nextPage() {
+    this.selectedIndex += 1;
   }
 
 }
