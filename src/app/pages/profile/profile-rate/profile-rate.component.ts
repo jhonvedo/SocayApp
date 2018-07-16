@@ -2,6 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../../app.animation';
 import { MatDialogRef, MatDialog, MAT_DIALOG_DATA } from '@angular/material';
 import { ProfileRateModalComponent } from '../profile-rate-modal/profile-rate-modal.component';
+import { _PRODUCTS } from '../../../core/data/products.mosk';
 
 @Component({
   selector: 'vr-profile-rate',
@@ -13,13 +14,16 @@ import { ProfileRateModalComponent } from '../profile-rate-modal/profile-rate-mo
 export class ProfileRateComponent implements OnInit {
   dialogRef: MatDialogRef<ProfileRateModalComponent>;
   dialogRefDescripcion: MatDialogRef<ComponentDescriptionsDialogComponent>;
+  productos=_PRODUCTS;
+
+  cantidades = Array.from(new Array(30),(val,index)=>index);
   constructor(public dialog: MatDialog) { }
 
-  openImg(){
+  openImg(imagenes){
     this.dialogRef = this.dialog.open(ProfileRateModalComponent, {
       disableClose: false,
       data:{
-        imges:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"]
+        imges:imagenes
       },
     });
 
@@ -44,6 +48,11 @@ export class ProfileRateComponent implements OnInit {
   }
 
   ngOnInit() {
+  
+  }
+
+  cambioCantidad(item){
+    item.subtotal = item.precio*item.cant;
   }
 
 }

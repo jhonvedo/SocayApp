@@ -63,6 +63,7 @@
     "smooth-scrollbar": "^8.2.4",
     "sortablejs": "^1.6.0",
     "ts-loader": "^3.1.1",
+    "ui-carousel": "^0.2.0",
     "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.16"
   },
