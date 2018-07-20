@@ -2,7 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../../app.animation';
 import { MatDialogRef, MatDialog, MAT_DIALOG_DATA, MatSnackBar, MatSnackBarConfig } from '@angular/material';
 import { ProfileRateModalComponent } from '../profile-rate-modal/profile-rate-modal.component';
-import { _PRODUCTS } from '../../../core/data/products.mosk';
+import { _PRODUCTS_MOSK } from '../../../core/data/products.mosk';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,7 +15,7 @@ import { Router } from '@angular/router';
 export class ProfileRateComponent implements OnInit {
   dialogRef: MatDialogRef<ProfileRateModalComponent>;
   dialogRefDescripcion: MatDialogRef<ComponentDescriptionsDialogComponent>;
-  productos:any[]=_PRODUCTS;
+  productos:any[]=_PRODUCTS_MOSK;
   descuento=0;
   subtotal=0;
   total=0;

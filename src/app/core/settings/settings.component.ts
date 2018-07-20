@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import * as fromRoot from '../../reducers/index';
+import * as fromRoot from '../../reducers';
 import * as layout from '../layout/shared/layout.action';
 import { MatRadioChange, MatSelectChange } from '@angular/material';
 import 'rxjs/add/operator/takeUntil';

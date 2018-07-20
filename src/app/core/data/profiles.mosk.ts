@@ -1,4 +1,4 @@
-export const _USERS:any[] = [
+export const _PROFILES_MOSK:any[] = [
   {
     "id": "5ab880a2ae04e45851045aef",
     "guid": "b1ce4c88-61cc-4474-9abd-529815318f38",

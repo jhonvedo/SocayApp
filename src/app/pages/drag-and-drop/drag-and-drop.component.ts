@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SortablejsOptions } from 'angular-sortablejs';
+import { SortablejsOptions } from 'angular-sortablejs/dist';
 import { ROUTE_TRANSITION } from '../../app.animation';
 
 @Component({

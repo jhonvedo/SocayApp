@@ -3,7 +3,7 @@ import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
 import { NavigationEnd, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
-import * as fromRoot from '../../../reducers/index';
+import * as fromRoot from '../../../reducers';
 import { SidenavItem } from '../../sidenav/sidenav-item/sidenav-item.model';
 import { SetCurrentlyOpenByRouteAction } from '../../sidenav/shared/sidenav.action';
 

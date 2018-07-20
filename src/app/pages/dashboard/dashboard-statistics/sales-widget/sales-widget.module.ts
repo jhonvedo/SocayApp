@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SalesWidgetComponent } from './sales-widget.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule, MatIconModule, MatMenuModule } from '@angular/material';
-import { UtilsModule } from 'app/core/utils/utils.module';
+import { UtilsModule } from '../../../../core/utils/utils.module';
 
 @NgModule({
   imports: [

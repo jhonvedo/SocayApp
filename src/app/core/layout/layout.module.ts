@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LayoutComponent } from './layout.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule, MatIconModule, MatRippleModule, MatSidenavModule } from '@angular/material';
-import { SettingsModule } from 'app/core/settings/settings.module';
+import { SettingsModule } from '../settings/settings.module';
 import { SidenavModule } from '../sidenav/sidenav.module';
 import { ToolbarModule } from '../toolbar/toolbar.module';
 import { QuickpanelModule } from '../quickpanel/quickpanel.module';

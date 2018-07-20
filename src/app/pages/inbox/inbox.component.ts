@@ -9,12 +9,12 @@ import {
   Renderer2,
   ViewChildren
 } from '@angular/core';
-import { Mail } from 'app/pages/inbox/mail.model';
+import { Mail } from './mail.model';
 import { Subscription } from 'rxjs/Subscription';
 import { MatDialog, MatSnackBar } from '@angular/material';
-import { InboxComposeComponent } from 'app/pages/inbox/inbox-compose/inbox-compose.component';
+import { InboxComposeComponent } from './inbox-compose/inbox-compose.component';
 import { Store } from '@ngrx/store';
-import * as fromRoot from '../../reducers/index';
+import * as fromRoot from '../../reducers';
 import * as inboxAction from './shared/inbox.action';
 import { demoMails } from './inbox.demo';
 import { ROUTE_TRANSITION } from '../../app.animation';

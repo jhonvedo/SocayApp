@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../../app.animation';
-import * as fromRoot from '../../../reducers/index';
+import * as fromRoot from '../../../reducers';
 import { Store } from '@ngrx/store';
 
 @Component({

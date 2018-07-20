@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ROUTE_TRANSITION } from '../../../app.animation';
-import {_USERS} from '../../../core/data/users';
+import {_USERS_MOSK} from '../../../core/data/users.mosk';
 import { SettingsService } from '../../../core/settings/settings.service';
 
 @Component({
@@ -24,8 +24,8 @@ export class LoginComponent implements OnInit {
   }
 
   login() {   
-    this.settingservice.setUser(this.settingservice.arrayRandom(_USERS));
-    this.router.navigate(['/pages/oferta']);
+    this.settingservice.setUser(this.settingservice.arrayRandom(_USERS_MOSK));
+    this.router.navigate(['/pages/perfiles']);
   }
 
 }

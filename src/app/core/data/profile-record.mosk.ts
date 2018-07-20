@@ -1,6 +1,7 @@
-export const _PROFILE_RECORD=[
+export const _PROFILES_RECORDS=[
     {
-      "photo":"46.jpg","cliente": "Henderson",
+      "photo":"46.jpg",
+      "cliente": "Henderson",
       "calificaciones": [
         {
           "nombre": "Satisfacción",

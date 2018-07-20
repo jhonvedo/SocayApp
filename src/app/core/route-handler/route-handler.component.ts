@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SidenavItem } from '../sidenav/sidenav-item/sidenav-item.model';
-import * as fromRoot from '../../reducers/index';
+import * as fromRoot from '../../reducers';
 import * as fromSidenav from '../sidenav/shared/sidenav.action';
 import { Store } from '@ngrx/store';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';

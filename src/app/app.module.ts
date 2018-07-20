@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { environment } from '../environments/environment';
+import { environment } from 'environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,7 +19,7 @@ import { BarRatingModule } from "ngx-bar-rating";
 import { Ng2Timeline } from 'ng2-timeline';
 // import { StarRatingModule } from '@angular-star-rating-lib/angular-star-rating';
 import { StarRatingModule } from 'angular-star-rating';
-import { RatingModule } from 'ng2-pure-rating';
+import { RatingModule } from 'ng2-pure-rating/dist';
 import { TimeLineModule } from './core/time-line/time-line.module';
  
 @NgModule({

@@ -1,4 +1,4 @@
-export const _PRODUCTS = [
+export const _PRODUCTS_MOSK = [
     {
       "concepto": "culpa adipisicing cupidatat commodo",
       "cantidad": 3,

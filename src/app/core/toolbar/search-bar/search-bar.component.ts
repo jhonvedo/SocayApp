@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, ElementRef, OnInit, ViewChild } from '@an
 import { SidenavItem } from '../../sidenav/sidenav-item/sidenav-item.model';
 import { NavigationEnd, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
-import * as fromRoot from '../../../reducers/index';
+import * as fromRoot from '../../../reducers';
 import filter from 'lodash-es/filter';
 import find from 'lodash-es/find';
 import each from 'lodash-es/each';

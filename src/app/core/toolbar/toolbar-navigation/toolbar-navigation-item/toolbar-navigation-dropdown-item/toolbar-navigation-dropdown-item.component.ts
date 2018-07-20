@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { SidenavItem } from '../../../../sidenav/sidenav-item/sidenav-item.model';
 import { Store } from '@ngrx/store';
 import { ToggleOpenSidenavItemAction } from '../../../../sidenav/shared/sidenav.action';
-import * as fromRoot from '../../../../../reducers/index';
+import * as fromRoot from '../../../../../reducers';
 
 @Component({
   selector: 'vr-toolbar-navigation-dropdown-item',

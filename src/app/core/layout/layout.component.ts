@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import * as fromRoot from '../../reducers/index';
+import * as fromRoot from '../../reducers';
 import * as layout from './shared/layout.action';
 import { Store } from '@ngrx/store';
 import { NavigationEnd, Router } from '@angular/router';

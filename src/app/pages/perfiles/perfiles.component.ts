@@ -3,7 +3,8 @@ import * as moment from 'moment';
 import { ROUTE_TRANSITION } from '../../app.animation';
 import {_PROYECTS} from '../../core/data/proyects';
 import { SettingsService } from '../../core/settings/settings.service';
-import {_USERS} from '../../core/data/users';
+import {_PROFILES_MOSK} from '../../core/data/profiles.mosk';
+import { _USERS_MOSK } from '../../core/data/users.mosk';
 
 @Component({
   selector: 'vr-perfiles',
@@ -15,7 +16,7 @@ import {_USERS} from '../../core/data/users';
 export class PerfilesComponent implements OnInit {
 
  
-  public profile_list:any=_USERS;
+  public profile_list:any=_USERS_MOSK;
   public arr:any;
   desktopGap = '24px';
   mobileGap = '16px';
