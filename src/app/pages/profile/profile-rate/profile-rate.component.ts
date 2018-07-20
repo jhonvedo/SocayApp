@@ -1,8 +1,9 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../../app.animation';
-import { MatDialogRef, MatDialog, MAT_DIALOG_DATA } from '@angular/material';
+import { MatDialogRef, MatDialog, MAT_DIALOG_DATA, MatSnackBar, MatSnackBarConfig } from '@angular/material';
 import { ProfileRateModalComponent } from '../profile-rate-modal/profile-rate-modal.component';
 import { _PRODUCTS } from '../../../core/data/products.mosk';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'vr-profile-rate',
@@ -19,13 +20,68 @@ export class ProfileRateComponent implements OnInit {
   subtotal=0;
   total=0;
   selectedIndex = 0;
-  lastIndex = 1;
+  lastIndex = 3;
+  resumenFactura:any={};
 
+  
+  private _habilitarContinuar : boolean;
+  public get habilitarContinuar() : boolean {
+    //return this._habilitarContinuar;
+    if(this.selectedIndex  == 1){
+      return (this.haveValue(this.resumenFactura.fecha ) && 
+              this.haveValue(this.resumenFactura.direccion ) && 
+              this.haveValue(this.resumenFactura.telefono ) && 
+              this.haveValue(this.resumenFactura.municipio ));
+    }else if(this.selectedIndex  == 2){
+      return (this.haveValue(this.resumenFactura.nombretitular ) && 
+              this.haveValue(this.resumenFactura.apellidoTitular ) && 
+              this.haveValue(this.resumenFactura.mesExpiracion ) && 
+              this.haveValue(this.resumenFactura.cvc ) && 
+              this.haveValue(this.resumenFactura.anioExpiracion ) && 
+              this.haveValue(this.resumenFactura.numeroTarjeta ));
+    }else{
+      return true;
+    }
+   
+  }
+  public set habilitarContinuar(v : boolean) {
+    this._habilitarContinuar = v;
+  }
+  
+  haveValue(value){
+    return value != undefined && value != '';
+  }
+  
 
   cantidades = Array.from(new Array(30),(val,index)=>index);
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog,private router:Router) { }
+  getProductosPedidos(){
+    return this.productos.filter(x=>x.cant > 0);
+  }
+
+  confirmar(){
+      console.log(this.resumenFactura);
+      this.dialogRefDescripcion = this.dialog.open(ComponentDescriptionsDialogComponent, {
+        disableClose: false,
+        data:{
+          description:"Se ha efectuado el pago por valor de $ "+this.total+" de manera exitosa"
+        },
+      });
+  
+      this.dialogRefDescripcion.afterClosed().subscribe(result => {
+       // this.result = result;
+        this.dialogRefDescripcion = null;
+        this.router.navigate(["/"]);//pages/perfiles
+      });
+      // this.snackBar.open('I\'m a notification!', 'Confirmar', {
+      //   duration: 5000
+      // } as MatSnackBarConfig);
+  }
+
+
 
   openImg(imagenes){
+    
     this.dialogRef = this.dialog.open(ProfileRateModalComponent, {
       disableClose: false,
       data:{
@@ -36,21 +92,12 @@ export class ProfileRateComponent implements OnInit {
     this.dialogRef.afterClosed().subscribe(result => {
      // this.result = result;
       this.dialogRef = null;
+   
     });
   }
 
   open(){
-    this.dialogRefDescripcion = this.dialog.open(ComponentDescriptionsDialogComponent, {
-      disableClose: false,
-      data:{
-        description:"efsdfsdfsdfsdfsdfsdfsdfsdfdsdffsdfsdfsdfs"
-      },
-    });
-
-    this.dialogRefDescripcion.afterClosed().subscribe(result => {
-     // this.result = result;
-      this.dialogRefDescripcion = null;
-    });
+   
   }
 
   ngOnInit() {
