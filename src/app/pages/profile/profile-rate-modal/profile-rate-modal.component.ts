@@ -15,8 +15,7 @@ export class ProfileRateModalComponent implements OnInit {
 
     constructor(public dialogRef: MatDialogRef<ProfileRateModalComponent>
       ,@Inject(MAT_DIALOG_DATA) public data: any) { 
-      this.imges = data.imges;
-     // console.log(data);
+      this.imges = data.imges;     
     }
   
 

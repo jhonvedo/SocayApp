@@ -14,17 +14,15 @@ import { _PROFILES_RECORDS } from '../../core/data/profile-record.mosk';
 })
 export class ProfileComponent implements OnInit {
 
+  selectedIndex:any;
   public profile:any;
   public records:any[]=[];
+  public products:any[]=[];
   constructor(private settingservice:SettingsService,private activatedRoute: ActivatedRoute) { }
 
-  ngOnInit() {
+  getRecord(records:any[]){
     var tmp=[];
-    this.activatedRoute.params.subscribe(params => {
-      var id = params['id']; 
-      this.profile=_PROFILES_MOSK.find(x=>x.id == id); 
-    });
-    _PROFILES_RECORDS.filter(item=>{
+    records.filter(item=>{
       var record:any = {...item};
       record.fecha_old=record.fecha;
       var fecha = record.fecha_old.split("-");
@@ -34,15 +32,26 @@ export class ProfileComponent implements OnInit {
     this.records=tmp.sort((x,y) => {
       if (x.fecha > y.fecha) {
         return -1;
-    }
+      }
 
-    if (x.fecha < y.fecha) {
-        return 1;
-    }
+      if (x.fecha < y.fecha) {
+          return 1;
+      }
 
-    return 0;
-    }); // - rather than < ,and + rather than >
-    console.log(this.records);
+      return 0;
+      }); // - rather than < ,and + rather than >
+  }
+  ngOnInit() {
+    var tmp=[];
+    this.activatedRoute.params.subscribe(params => {
+      var id = params['id']; 
+      this.profile=_PROFILES_MOSK.find(x=>x.id == id);   
+      console.log(this.profile); 
+       this.getRecord(this.profile.record);
+       this.products = this.profile.products;     
+    });
+   
+   
   }
 
 }

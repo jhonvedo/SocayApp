@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';//
-import { SingleProfileComponent } from './single-profile.component';
+import { SingleProfileComponent, ComponentImagesDialogComponent } from './single-profile.component';
 import { UtilsModule } from '../../../core/utils/utils.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule,MatTableModule,MatChipsModule,MatSelectModule,
-  MatMenuModule,MatTooltipModule, MatCardModule, MatIconModule, MatListModule, MatTabsModule } from '@angular/material';
+  MatMenuModule,MatTooltipModule, MatCardModule, MatIconModule, MatListModule, MatTabsModule, MatDialogModule } from '@angular/material';
 import { BreadcrumbsModule } from '../../../core/breadcrumbs/breadcrumbs.module';//
 import { RouterModule } from '@angular/router';//
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
-
+import { UICarouselModule } from "ui-carousel";
 
 @NgModule({
   imports: [
@@ -29,13 +29,15 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
     MatMenuModule,
     MatTooltipModule,
     MatTableModule,
-
-    Ng2CarouselamosModule
+    UICarouselModule,
+    Ng2CarouselamosModule,
+    MatDialogModule,
 
    
 
   ],
-  declarations: [SingleProfileComponent],
-  exports: [SingleProfileComponent]
+  entryComponents:[ComponentImagesDialogComponent],
+  declarations: [SingleProfileComponent,ComponentImagesDialogComponent],
+  exports: [SingleProfileComponent,ComponentImagesDialogComponent]
 })
 export class SingleProfileModule { }

@@ -16,8 +16,6 @@ export class ProfileRecordComponent implements OnInit {
     if(this.records){
       this.records.forEach(item => {
         var line:TimeLineModel=new TimeLineModel();
-        
-
       });
     }
   }

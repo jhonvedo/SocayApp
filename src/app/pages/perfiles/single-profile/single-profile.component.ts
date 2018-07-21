@@ -1,33 +1,70 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Inject } from '@angular/core';
 import escape from 'lodash-es/escape';
 import { SettingsService } from '../../../core/settings/settings.service';
+import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
 
 @Component({
   selector: 'vr-single-profile',
   templateUrl: './single-profile.component.html'
 })
 export class SingleProfileComponent implements OnInit {
-  @Input() profile:any;
-  items: Array<any> = [];
-  
+  @Input() profile:any={};
  
-  constructor(private settingservice:SettingsService) { }
+  dialogRef:any;
+ 
+  constructor(private settingservice:SettingsService,public dialog: MatDialog) { }
 
-  ngOnInit() {   
-    this.profile.about = 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum';
-    this.items = [
-      { name: 'assets/img/demo/avatars/1.png' },
-      { name: 'assets/img/demo/avatars/2.png' },
-      { name: 'assets/img/demo/avatars/3.png' },
-      { name: 'assets/img/demo/avatars/4.png' },
-      { name: 'assets/img/demo/avatars/5.png' },
-      { name: 'assets/img/demo/avatars/6.png' },
-      { name: 'assets/img/demo/avatars/7.png' },
-      { name: 'assets/img/demo/avatars/8.png' },
-      { name: 'assets/img/demo/avatars/9.png' },
-      { name: 'assets/img/demo/avatars/10.png' },
-      { name: 'assets/img/demo/avatars/11.png' },
-      { name: 'assets/img/demo/avatars/12.png' },
-    ];
+  ngOnInit() {    
+    this.getImages(this.profile);    
+  }
+  showImage(){
+    this.dialogRef = this.dialog.open(ComponentImagesDialogComponent, {
+      disableClose: false,
+      data:{
+        imges:this.profile.allProducts
+      },
+    });
+
+    this.dialogRef.afterClosed().subscribe(result => {
+    
+      this.dialogRef = null;
+   
+    });
+  }
+  getImages(profile){
+    profile.allProducts =[];
+    profile.products.filter(item=>{
+        if(item.evidencias!=undefined ){
+          item.evidencias.filter(evidencia=>{
+            profile.allProducts.push(evidencia);           
+          });
+        }
+    });
+
+  }
+}
+
+
+
+@Component({
+  selector: 'vr-component-images-dialog',
+  template: `
+  
+  <ui-carousel [infinite]="false" [fade]="false" [speed]="500" height="450px" width="650px">
+  <ui-carousel-item *ngFor="let img of imges">
+      <img src="assets/img/experiencia/{{img}}" alt="" height="450px" width="650px" draggable="true">
+  </ui-carousel-item> 
+  </ui-carousel>
+  <mat-dialog-actions align="end">
+  <button mat-button (click)="dialogRef.close('Cerrar')">Cerrar</button> 
+  </mat-dialog-actions>
+
+  `
+})
+export class ComponentImagesDialogComponent {
+  imges:any[]=[];
+  constructor(public dialogRef: MatDialogRef<ComponentImagesDialogComponent>
+    ,@Inject(MAT_DIALOG_DATA) public data: any) { 
+    this.imges = data.imges;     
   }
 }

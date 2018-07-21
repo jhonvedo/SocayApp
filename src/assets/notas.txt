@@ -137,7 +137,6 @@ deploy in firebase : https://coryrylan.com/blog/deploy-angular-cli-apps-to-fireb
 ------------------
 
 
-
 [
   '{{repeat(5, 7)}}',
   {
@@ -149,36 +148,142 @@ deploy in firebase : https://coryrylan.com/blog/deploy-angular-cli-apps-to-fireb
     gender: '{{gender()}}',    
     email: '{{email()}}',
     phone: '{{phone()}}',
-    profession:'{{random("ABOGADO","EMPLEADA DOMESTICA","JARDINERO","PLOMERO")}}',
+    profession:'{{random("ABOGADO","EMPLEADA DOMESTICA","JARDINERO")}}',
     type: '{{random("CONSUMIDOR","PUBLICADOR","AMBOS")}}',
+    random:'{{floating(0, 10,0)}}',
     education:function(){
       var p = this.profession;
-      var r = Math.floor(Math.random() * 10 + 1);
+      var r = this.random;     
       if(p==='ABOGADO'){
-        return 'PREGRADO',
+        return 'PREGRADO';
       }else if(p==="EMPLEADA DOMESTICA"||p==="JARDINERO" || p==="PLOMERO"){
-        return r<=5?"BACHILLERATO":"TECNICO";
+        if(r <= 5){return "BACHILLERATO";}else{return "TECNICO";}       
       }
-     
+     return r;
     },
     address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
     img:'{{random("26.jpg","37.jpg","46.jpg","92.jpg")}}',
-      
-     // epa:["1","2","3"],
-         im2:'{{random("26.jpg","37.jpg","46.jpg","92.jpg")}}',
-        
-    skills: [
-      '{{repeat(2)}}',
+     skills_jardineria: ['{{repeat(2,5)}}',
       {
-        skill:'{{random("ANGULARJS","ANGULAR5","NET","XAMARIN","JAVA")}}',
+        skill:'{{random("COMPOSTAJE","REPRODUCCIÓN","TRASPLANTE","PODA","GESTIÓN PLAGAS")}}',
         verify: '{{random("USER","OTHER","NOTHING")}}'
       }
     ],
+    skills_abogado: ['{{repeat(2,5)}}',
+      {
+        skill:'{{random("DERECHO EMPRESARIAL","DERECHO PENAL","PROPIEDAD INTELECTUAL","TRIBUTACIÓN","INMIGRACIÓN")}}',
+        verify: '{{random("USER","OTHER","NOTHING")}}'
+      }
+    ] ,
    
-    favoriteFruit: function (tags) {
-    //  return random(2,3,4);
-      var fruits = ['apple', 'banana', 'strawberry'];
-      return fruits[tags.integer(0, fruits.length - 1)];
+    skills_domentico: ['{{repeat(2,4)}}',
+      {
+        skill:'{{random("COCINA TIPOCA(ANTIOQUIA)","COCINA TIPOCA(COSTEÑA)","ENCERADO DE PISOS DE MADERA","LIMPIEZA DE PRENDAS DELICADAS (LINO,SEDA)")}}',
+        verify: '{{random("USER","OTHER","NOTHING")}}'
+      }
+    ] ,      
+    skills: function(){
+      switch(this.profession){
+        case "ABOGADO" : return this.skills_abogado;
+          case "JARDINERO" : return this.skills_jardineria;
+          case "EMPLEADA DOMESTICA" : return this.skills_domentico;
+      }
     }
+  }
+]
+
+
+------ todo
+[
+  '{{repeat(5, 7)}}',
+  {
+    id: '{{objectId()}}',   
+    guid: '{{guid()}}',   
+    balance: '{{floating(1000, 4000, 2, "$0,0.00")}}',   
+    age: '{{integer(20, 40)}}',   
+    name: '{{firstName()}} {{surname()}}',
+    gender: '{{gender()}}',    
+    email: '{{email()}}',
+    phone: '{{phone()}}',
+    about:'{{lorem(1,"paragraph")}}',
+    profession:'{{random("ABOGADO","EMPLEADA DOMESTICA","JARDINERO")}}',
+    type: '{{random("CONSUMIDOR","PUBLICADOR","AMBOS")}}',
+    random:'{{floating(0, 10,0)}}',
+    education:function(){
+      var p = this.profession;
+      var r = this.random;     
+      if(p==='ABOGADO'){
+        return 'PREGRADO';
+      }else if(p==="EMPLEADA DOMESTICA"||p==="JARDINERO" || p==="PLOMERO"){
+        if(r <= 5){return "BACHILLERATO";}else{return "TECNICO";}       
+      }
+     return r;
+    },
+    address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+    img:'{{random("26.jpg","37.jpg","46.jpg","92.jpg")}}',
+     skills_jardineria: ['{{repeat(2,5)}}',
+      {
+        skill:'{{random("COMPOSTAJE","REPRODUCCIÓN","TRASPLANTE","PODA","GESTIÓN PLAGAS")}}',
+        verify: '{{random("USER","OTHER","NOTHING")}}'
+      }
+    ],
+    skills_abogado: ['{{repeat(2,5)}}',
+      {
+        skill:'{{random("DERECHO EMPRESARIAL","DERECHO PENAL","PROPIEDAD INTELECTUAL","TRIBUTACIÓN","INMIGRACIÓN")}}',
+        verify: '{{random("USER","OTHER","NOTHING")}}'
+      }
+    ] ,
+   
+    skills_domentico: ['{{repeat(2,4)}}',
+      {
+        skill:'{{random("COCINA TIPOCA(ANTIOQUIA)","COCINA TIPOCA(COSTEÑA)","ENCERADO DE PISOS DE MADERA","LIMPIEZA DE PRENDAS DELICADAS (LINO,SEDA)")}}',
+        verify: '{{random("USER","OTHER","NOTHING")}}'
+      }
+    ] ,      
+    skills: function(){
+      switch(this.profession){
+        case "ABOGADO" : return this.skills_abogado;
+          case "JARDINERO" : return this.skills_jardineria;
+          case "EMPLEADA DOMESTICA" : return this.skills_domentico;
+      }
+    },
+    products:[
+      '{{repeat(5, 7)}}',
+      {
+        id: '{{objectId()}}',   
+        concepto:'{{lorem(3, "word")}}',
+        cantidad:'{{random(1,2,3)}}',
+        medida:'{{random("Hora","Servicio")}}',   
+        tiempo: function(){
+          return this.medida==='Hora'?null:3;
+        },
+        evidencias:[
+        '{{repeat(2,5)}}', '{{random("1.jpg","2.jpg","3.jpg","4.jpg","5.jpg")}}'
+          ],     
+        "precio":'{{floating(35000, 76500, 2)}}'   
+
+      }
+    ],
+    record:[
+  	'{{repeat(10, 12)}}',
+      {
+
+       cliente: '{{surname()}}',   
+         img:'{{random("26.jpg","37.jpg","46.jpg","92.jpg")}}',
+        calificaciones:[
+          {nombre:'Satisfacción',calificacion:'{{integer(3, 5)}}'},
+          {nombre:'Responsabilidad',calificacion:'{{integer(3, 5)}}'},
+          {nombre:'Puntualidad',calificacion:'{{integer(3, 5)}}'},
+          {nombre:'Modales',calificacion:'{{integer(3, 5)}}'}
+        ],
+        observacion:'{{lorem(1, "paragraphs")}}' ,
+        skills: [
+          '{{repeat(integer(1, 5))}}',      
+          '{{random("ANGULARJS","ANGULAR5","NET","XAMARIN","JAVA")}}'      
+
+        ],
+        fecha:'{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-dd")}}'
+        }
+    ]
   }
 ]

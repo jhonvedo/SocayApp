@@ -1,7 +1,7 @@
 
-<ui-carousel [infinite]="false" [fade]="true" [speed]="500" height="300px" width="500px">
+<ui-carousel [infinite]="false" [fade]="false" [speed]="500" height="300px" width="500px">
   <ui-carousel-item *ngFor="let img of imges">
-      <img src="assets/img/experiencia/{{img}}" alt="" draggable="true">
+      <img src="assets/img/experiencia/{{img}}" height="300px" width="500px" alt="" draggable="true">
   </ui-carousel-item> 
 </ui-carousel>
 <mat-dialog-actions align="end">

@@ -8,13 +8,15 @@ import { PageHeaderModule } from '../../core/page-header/page-header.module';
 import { BreadcrumbsModule } from '../../core/breadcrumbs/breadcrumbs.module';
 import { RouterModule } from '@angular/router';
 import { PerfilesRoutingModule } from './perfiles.routing';
-import { ProfileModule } from '../profile/profile.module';
+
 import { UtilsModule } from '../../core/utils/utils.module';
 import {SingleProfileModule} from './single-profile/single-profile.module';
 import { FiltroPerfilModule } from '../filtro-perfil/filtro-perfil.module';
 
 @NgModule({
   imports: [
+   
+
     CommonModule,
     PerfilesRoutingModule,    
     PageHeaderModule,

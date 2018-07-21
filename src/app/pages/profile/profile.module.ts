@@ -66,6 +66,8 @@ import { UtilsModule } from '../../core/utils/utils.module';
     
   ],
   entryComponents:[ProfileRateModalComponent,ComponentDescriptionsDialogComponent],
-  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent, ProfileRateComponent, ProfileRateModalComponent,ComponentDescriptionsDialogComponent]
+  declarations: [ProfileComponent, ProfileOverviewComponent, ProfileRecordComponent, ProfileRateComponent, ProfileRateModalComponent,ComponentDescriptionsDialogComponent],
+  exports:[ProfileRateModalComponent]
+
 })
 export class ProfileModule { }

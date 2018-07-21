@@ -4,19 +4,20 @@
       <img mat-card-avatar src="assets/img/profile/{{profile.img}}">
 
       <mat-card-subtitle>
-        Yesterday
+        {{profile.profession}}
       </mat-card-subtitle>
       <mat-card-title>{{profile.name}}</mat-card-title>
     </mat-card-header>
-
-    <mat-card-content>
-      <p>{{profile.about}}</p>
-    </mat-card-content>
     <mat-card-content>
      
-        <div ng2-carouselamos class="slides-wrapper" [items]="items" [$prev]="prev" [$next]="next" [$item]="item" >
+      <ui-carousel  [infinite]="true" [fade]="false" [speed]="500" height="200px" width="280">
+        <ui-carousel-item *ngFor="let img of profile.allProducts">
+            <img (click)="showImage()" src="assets/img/experiencia/{{img}}" alt="" draggable="true">
+        </ui-carousel-item> 
+      </ui-carousel>
+        <!-- <div ng2-carouselamos [width]="200" class="slides-wrapper" [items]="profile.allProducts" [$prev]="prev" [$next]="next" [$item]="item" (click)="click()" >
         </div>
-        <!-- [width]="200"  -->
+       
         <ng-template #prev>
           <img height="42" width="42" src="assets/img/prev.png" />
         </ng-template>
@@ -25,22 +26,25 @@
         </ng-template>
         <ng-template #item let-item let-i="index">
           <div style="margin-left: 8px;margin-right: 8px;" class="items">
-            <img src="{{ item.name }}">
+            <img src="assets/img/experiencia/{{item}}">
           </div>
-        </ng-template>
+        </ng-template> -->
     
     </mat-card-content>
     
+    <mat-card-content>
+      <p>{{profile.about}}</p>
+    </mat-card-content>
+   
 
     <div fxLayout="row">
       <mat-chip-list fxLayoutAlign="start center">
         <mat-chip selected="true" matTooltip="{{item.verify=='USER'?'Verificado por usuario Socay':(item.verify=='OTHER'?'Verificado por referencia':'No Esta Verificado')}}"
           color="{{item.verify=='USER'?'accent':(item.verify=='OTHER'?'primary':'default')}}" *ngFor="let item of profile.skills">{{ item.skill }}</mat-chip>
       </mat-chip-list>
-      <span fxFlex></span>
-      <!-- filter_9_plus filter -->
-      <div fxLayoutAlign="end end" matTooltip="2 trabajos realizados en Socay">
-        <mat-icon class="chevron">filter_2</mat-icon>
+      <span fxFlex></span>      
+      <div fxLayoutAlign="end end" matTooltip="{{profile.record.length}} trabajos realizados en Socay">
+        <mat-icon class="chevron">{{profile.record.length > 9 ?'filter_9_plus':'filter_'+profile.record.length}}</mat-icon>
       </div>
     </div>
     <br>

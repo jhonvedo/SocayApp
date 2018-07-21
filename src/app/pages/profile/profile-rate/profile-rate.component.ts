@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, Input } from '@angular/core';
 import { ROUTE_TRANSITION } from '../../../app.animation';
 import { MatDialogRef, MatDialog, MAT_DIALOG_DATA, MatSnackBar, MatSnackBarConfig } from '@angular/material';
 import { ProfileRateModalComponent } from '../profile-rate-modal/profile-rate-modal.component';
@@ -13,9 +13,10 @@ import { Router } from '@angular/router';
   host: { '[@routeTransition]': '' }
 })
 export class ProfileRateComponent implements OnInit {
+  @Input() productos:any[]=[];
   dialogRef: MatDialogRef<ProfileRateModalComponent>;
   dialogRefDescripcion: MatDialogRef<ComponentDescriptionsDialogComponent>;
-  productos:any[]=_PRODUCTS_MOSK;
+ // productos:any[]=_PRODUCTS_MOSK;
   descuento=0;
   subtotal=0;
   total=0;

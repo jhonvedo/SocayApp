@@ -16,7 +16,7 @@ import { _USERS_MOSK } from '../../core/data/users.mosk';
 export class PerfilesComponent implements OnInit {
 
  
-  public profile_list:any=_USERS_MOSK;
+  public profile_list:any=_PROFILES_MOSK;
   public arr:any;
   desktopGap = '24px';
   mobileGap = '16px';
@@ -34,7 +34,7 @@ export class PerfilesComponent implements OnInit {
     this.arr = Array.apply(null, {
       length: this.profile_list.length/2
     }).map(Number.call, Number);
-    console.log(this.arr);
+    
   }
 
 }

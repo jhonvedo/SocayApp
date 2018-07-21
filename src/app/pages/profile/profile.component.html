@@ -15,7 +15,7 @@
         <div fxLayout="column" fxLayoutAlign="space-between">
           <div>
             <div class="name">{{profile.name}}</div>
-            <div class="description">Profesión</div>
+            <div class="description"> {{profile.profession}}</div>
             <br>
             <!-- <span>Contratar <i class="fa fa-briefcase"></i></span> -->
             <button mat-fab matTooltip="Contratar" (click)="selectedIndex=2">
@@ -75,7 +75,7 @@
         <vr-profile-record [records]="records"></vr-profile-record>
       </mat-tab>
       <mat-tab label="Tarifas">
-        <vr-profile-rate></vr-profile-rate>
+        <vr-profile-rate [productos]="products"></vr-profile-rate>
       </mat-tab>
     </mat-tab-group>
 
