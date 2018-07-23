@@ -1,4 +1,4 @@
-export const _PROFILES_MOSK_OLD:any[] = [
+export const _PROFILES_MOSK_OLD: any[] = [
   {
     "id": "5ab880a2ae04e45851045aef",
     "guid": "b1ce4c88-61cc-4474-9abd-529815318f38",
@@ -478,7 +478,7 @@ export const _PROFILES_MOSK_OLD:any[] = [
 
 
 
-export const _PROFILES_MOSK:any[]=[
+export const _PROFILES_MOSK: any[] = [
   {
     "id": "5b53730f6136b77bf391744c",
     "guid": "c306f3c5-8c24-4258-99fd-84d216c2d09c",
