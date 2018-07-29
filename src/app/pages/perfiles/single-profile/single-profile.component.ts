@@ -33,11 +33,17 @@ export class SingleProfileComponent implements OnInit {
   }
   getImages(profile){
     profile.allProducts =[];
+    
     profile.products.filter(item=>{
         if(item.evidencias!=undefined ){
           item.evidencias.filter(evidencia=>{
-            profile.allProducts.push(evidencia);           
+          
+            if(profile.allProducts.indexOf(evidencia) == -1){
+              profile.allProducts.push(evidencia); 
+            }
+                    
           });
+         
         }
     });
 

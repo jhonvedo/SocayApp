@@ -488,7 +488,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "female",
     "email": "susannesellers@qualitern.com",
     "phone": "(839) 492-2515",
-    "about": "Soy una empleada doméstica con más de 6 años de experiencia en tareas del hogar y de limpieza en domicilios particulares y en empresa. He trabajado por cuenta propia y también para compañías del sector, realizando siempre mis laborales con meticulosidad y a plena satisfacción del cliente.\r\n",
+    "about": "<p>Soy una empleada doméstica con más de 6 años de experiencia en tareas del hogar y de limpieza en domicilios particulares y en empresa. He trabajado por cuenta propia y también para compañías del sector, realizando siempre mis laborales con meticulosidad y a plena satisfacción del cliente</p><br><br><br><br><br><br>",
     "profession": "EMPLEADA DOMESTICA",
     "type": "CONSUMIDOR",
     "random": 0.0566,
@@ -558,81 +558,60 @@ export const _PROFILES_MOSK: any[] = [
     "products": [
       {
         "id": "5b53730fa5aaaa6a436ebad6",
-        "concepto": "Lorem consectetur enim",
-        "cantidad": 3,
-        "medida": "Servicio",
+        "concepto": "Aseo general incluye pisos, paredes (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 4,
+        "medida": "Hora",
         "tiempo": 3,
         "evidencias": [
-          "3.jpg",
-          "4.jpg"
+          "domestico/1.jpg",
+          "domestico/2.jpg",
+          "domestico/3.jpg",
+          "domestico/4.jpg"
         ],
-        "precio": 41380.53
+        "precio": 41380
       },
       {
         "id": "5b53730f567b8d5217569420",
-        "concepto": "voluptate irure adipisicing",
-        "cantidad": 3,
+        "concepto": "Aseo general incluye pisos, paredes,cocina (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 6,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "1.jpg",
-          "5.jpg",
-          "3.jpg",
-          "5.jpg",
-          "2.jpg"
+          "domestico/1.jpg",
+          "domestico/2.jpg",
+          "domestico/3.jpg",
+          "domestico/4.jpg"
         ],
-        "precio": 74510.9
+        "precio": 74510
       },
       {
         "id": "5b53730f13d4285aa5462872",
-        "concepto": "cupidatat laboris magna",
-        "cantidad": 2,
+        "concepto": "Aseo general incluye pisos, paredes,cocina, 1 baño (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 8,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "2.jpg",
-          "1.jpg"
+          "domestico/1.jpg",
+          "domestico/2.jpg",
+          "domestico/3.jpg",
+          "domestico/4.jpg"
         ],
-        "precio": 73936.14
+        "precio": 85000
       },
       {
         "id": "5b53730fda522d4d314badd9",
-        "concepto": "sunt sint dolore",
-        "cantidad": 2,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "5.jpg",
-          "3.jpg",
-          "1.jpg"
-        ],
-        "precio": 48765.92
-      },
-      {
-        "id": "5b53730f52fafbe9b0b9c2a8",
-        "concepto": "deserunt consequat excepteur",
-        "cantidad": 3,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "3.jpg",
-          "4.jpg",
-          "4.jpg"
-        ],
-        "precio": 57480.25
-      },
-      {
-        "id": "5b53730f988291359b95613a",
-        "concepto": "enim do et",
+        "concepto": "Cocina para evento o reunión (15 personas aproximadamente)",
         "cantidad": 1,
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
-          "4.jpg",
-          "4.jpg"
+          "domestico/1.jpg",
+          "domestico/2.jpg",
+          "domestico/3.jpg",
+          "domestico/4.jpg"
         ],
-        "precio": 49480.61
-      }
+        "precio": 75500
+      }      
     ],
     "record": [
       {
@@ -934,7 +913,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "male",
     "email": "kaufmanshaw@qualitern.com",
     "phone": "(989) 407-2067",
-    "about": "Experto en tareas de cuidado y mantenimiento de plantas como flores, arbustos, árboles y césped. Soy una persona con capacidades múltiples para realizar tareas relacionadas con este campo, tales como plantación, riego, pulverización con productos químicos, corte de césped, podado de plantas, eliminación de malezas y basura, entre otros. Mis horarios son muy flexibles por lo que puedo ofrecer mis servicios en distintos horarios del día y cuando el cliente lo crea necesario.\r\n",
+    "about": "<p>Experto en tareas de cuidado y mantenimiento de plantas como flores, arbustos, árboles y césped. Soy una persona con capacidades múltiples para realizar tareas relacionadas con este campo, tales como plantación, riego, pulverización con productos químicos, corte de césped, podado de plantas, eliminación de malezas y basura, entre otros. Mis horarios son muy flexibles por lo que puedo ofrecer mis servicios en distintos horarios del día y cuando el cliente lo crea necesario.</p><br>",
     "profession": "JARDINERO",
     "type": "AMBOS",
     "random": 2.248,
@@ -997,87 +976,61 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills": [
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
-        "verify": "OTHER"
-      },
-      {
-        "skill": "ENCERADO DE PISOS DE MADERA",
+        "skill": "COMPOSTAJE",
         "verify": "USER"
       },
       {
-        "skill": "LIMPIEZA DE PRENDAS DELICADAS (LINO,SEDA)",
+        "skill": "GESTIÓN PLAGAS",
         "verify": "NOTHING"
       },
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
-        "verify": "USER"
+        "skill": "REPRODUCCIÓN",
+        "verify": "OTHER"
       }
     ],
     "products": [
       {
         "id": "5b53730f37db1251c63bfc39",
-        "concepto": "laborum sint ad",
-        "cantidad": 2,
-        "medida": "Servicio",
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 4,
+        "medida": "Hora",
         "tiempo": 3,
         "evidencias": [
-          "4.jpg",
-          "4.jpg",
-          "4.jpg",
-          "2.jpg"
+          "jardinero/1.jpg",
+          "jardinero/2.jpg",
+          "jardinero/3.jpg",
+          "jardinero/4.jpg"
         ],
-        "precio": 63618.37
+        "precio": 35000
       },
       {
         "id": "5b53730fc8176b95b771a36c",
-        "concepto": "occaecat velit labore",
-        "cantidad": 3,
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 6,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "4.jpg",
-          "2.jpg"
+          "jardinero/1.jpg",
+          "jardinero/2.jpg",
+          "jardinero/3.jpg",
+          "jardinero/4.jpg"
         ],
-        "precio": 37099.88
+        "precio": 42000
       },
       {
         "id": "5b53730fb036a51acb202830",
-        "concepto": "aliqua id amet",
-        "cantidad": 2,
-        "medida": "Servicio",
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 8,
+        "medida": "Hora",
         "tiempo": 3,
         "evidencias": [
-          "5.jpg",
-          "1.jpg"
+          "jardinero/1.jpg",
+          "jardinero/2.jpg",
+          "jardinero/3.jpg",
+          "jardinero/4.jpg"
         ],
-        "precio": 58610.93
-      },
-      {
-        "id": "5b53730f9123b456588ad53e",
-        "concepto": "sint eu officia",
-        "cantidad": 2,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "4.jpg",
-          "4.jpg",
-          "2.jpg",
-          "1.jpg"
-        ],
-        "precio": 69008.03
-      },
-      {
-        "id": "5b53730fbe42a66b49dbcb55",
-        "concepto": "non exercitation sit",
-        "cantidad": 2,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "1.jpg",
-          "5.jpg"
-        ],
-        "precio": 72898.38
-      }
+        "precio": 79000
+      }     
     ],
     "record": [
       {
@@ -1412,7 +1365,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "female",
     "email": "ingridtravis@qualitern.com",
     "phone": "(834) 406-3603",
-    "about": "Profesional en Derecho, especializado en Derecho Laboral y Seguridad Social y Derecho Administrativo con amplia experiencia en el sector público y privado. Me caracterizo por ser una persona responsable, exigente, adaptación al cambio, buenas relaciones interpersonales, comprometida a nivel organizacional, cuento con capacidad de innovación, creatividad para gestionar y liderar proyectos institucionales, capacidad para trabajo en grupo y bajo presión.\r\n",
+    "about": "<p>Profesional en Derecho, especializado en Derecho Laboral y Seguridad Social y Derecho Administrativo con amplia experiencia en el sector público y privado. Me caracterizo por ser una persona responsable, exigente, adaptación al cambio, buenas relaciones interpersonales, comprometida a nivel organizacional, cuento con capacidad de innovación, creatividad para gestionar y liderar proyectos institucionales, capacidad para trabajo en grupo y bajo presión.</p>",
     "profession": "ABOGADO",
     "type": "AMBOS",
     "random": 0.1562,
@@ -1494,96 +1447,25 @@ export const _PROFILES_MOSK: any[] = [
     "products": [
       {
         "id": "5b53730f54d96fdd2983d035",
-        "concepto": "ad laboris enim",
-        "cantidad": 3,
+        "concepto": "Redacción de contratos de arrendamiento, alquiler entre otros",
+        "cantidad": 1,
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
-          "3.jpg",
-          "3.jpg"
+          "abogado/1.jpg"
         ],
-        "precio": 49146.93
+        "precio": 50250
       },
       {
         "id": "5b53730f3dfe69f66f9a68f9",
-        "concepto": "dolore consectetur pariatur",
-        "cantidad": 2,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "1.jpg",
-          "3.jpg",
-          "2.jpg",
-          "4.jpg",
-          "2.jpg"
-        ],
-        "precio": 76341.69
-      },
-      {
-        "id": "5b53730f7e55f7832db91987",
-        "concepto": "deserunt ut commodo",
+        "concepto": "Asesoría juridica",
         "cantidad": 1,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "1.jpg",
-          "4.jpg",
-          "1.jpg",
-          "4.jpg"
+          "abogado/1.jpg"
         ],
-        "precio": 53730.09
-      },
-      {
-        "id": "5b53730fd822380aae0a50eb",
-        "concepto": "aliquip aute elit",
-        "cantidad": 3,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "5.jpg",
-          "1.jpg"
-        ],
-        "precio": 38297.68
-      },
-      {
-        "id": "5b53730f2250545459322893",
-        "concepto": "voluptate aliquip adipisicing",
-        "cantidad": 1,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "5.jpg",
-          "5.jpg",
-          "3.jpg"
-        ],
-        "precio": 41041.62
-      },
-      {
-        "id": "5b53730f38fa344410ca04ed",
-        "concepto": "deserunt adipisicing elit",
-        "cantidad": 2,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "1.jpg",
-          "5.jpg"
-        ],
-        "precio": 60590.06
-      },
-      {
-        "id": "5b53730ffca07432e5043319",
-        "concepto": "ullamco cillum voluptate",
-        "cantidad": 3,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "3.jpg",
-          "1.jpg",
-          "2.jpg",
-          "4.jpg",
-          "2.jpg"
-        ],
-        "precio": 43400.42
+        "precio": 23600
       }
     ],
     "record": [
@@ -1887,7 +1769,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "female",
     "email": "janinelogan@qualitern.com",
     "phone": "(983) 512-2470",
-    "about": "Abogada, especialista en Derecho Público y Magister en Derecho Administrativo.    Persona analítica, objetiva, proactiva, con excelentes habilidades interpersonales, actitud de colaboración, respeto y confianza para con los miembros del equipo de trabajo y por la comunidad en general, con capacidad de rápido aprendizaje y experiencia en entidades públicas en el área administrativa, asesoría jurídica en procesos institucionales, gerencia de procesos contractuales, coordinación de personal, levantamiento de procesos, con conocimientos y herramientas jurídicas, socio-jurídicas, político-administrativas, en materia de derecho público y áreas afines. \r\n",
+    "about": "<p>Abogada, especialista en Derecho Público y Magister en Derecho Administrativo.    Persona analítica, objetiva, proactiva, con excelentes habilidades interpersonales, actitud de colaboración, respeto y confianza para con los miembros del equipo de trabajo y por la comunidad en general, con capacidad de rápido aprendizaje y experiencia en entidades públicas en el área administrativa, asesoría jurídica en procesos institucionales, gerencia de procesos contractuales, coordinación de personal, levantamiento de procesos, con conocimientos y herramientas jurídicas, socio-jurídicas, político-administrativas, en materia de derecho público y áreas afines.</p>",
     "profession": "ABOGADA",
     "type": "AMBOS",
     "random": 3.5732,
@@ -1945,82 +1827,25 @@ export const _PROFILES_MOSK: any[] = [
     "products": [
       {
         "id": "5b53730fa2c44f943aee8679",
-        "concepto": "aliqua adipisicing reprehenderit",
-        "cantidad": 2,
+        "concepto": "Redacción de contratos laborales y de alquiler",
+        "cantidad": 1,
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
-          "2.jpg",
-          "5.jpg",
-          "3.jpg",
-          "3.jpg",
-          "5.jpg"
+          "abogado/2.jpg"
         ],
-        "precio": 57535.12
+        "precio": 55400
       },
       {
         "id": "5b53730f693dabcafb9a6fd0",
-        "concepto": "eiusmod incididunt pariatur",
+        "concepto": "asesoria juridica",
         "cantidad": 1,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "2.jpg",
-          "3.jpg"
+          "abogado/2.jpg"
         ],
-        "precio": 56107.15
-      },
-      {
-        "id": "5b53730f1dbbfc87e4cb8330",
-        "concepto": "anim qui nulla",
-        "cantidad": 1,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "1.jpg",
-          "5.jpg",
-          "5.jpg"
-        ],
-        "precio": 59568.71
-      },
-      {
-        "id": "5b53730fd689a4e95fe1df52",
-        "concepto": "duis pariatur ea",
-        "cantidad": 2,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "1.jpg",
-          "1.jpg"
-        ],
-        "precio": 58288.49
-      },
-      {
-        "id": "5b53730fae0dcbf496abb0c0",
-        "concepto": "tempor non laboris",
-        "cantidad": 1,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "4.jpg",
-          "4.jpg",
-          "4.jpg"
-        ],
-        "precio": 69556.38
-      },
-      {
-        "id": "5b53730fe5debfbc68177f60",
-        "concepto": "quis adipisicing ex",
-        "cantidad": 2,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "5.jpg",
-          "2.jpg",
-          "1.jpg",
-          "4.jpg"
-        ],
-        "precio": 38426.68
+        "precio": 34600
       }
     ],
     "record": [
@@ -2354,7 +2179,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "male",
     "email": "franksklein@qualitern.com",
     "phone": "(841) 449-2129",
-    "about": "Experto en tareas de cuidado y mantenimiento de plantas como flores, arbustos, árboles y césped. Soy una persona con capacidades múltiples para realizar tareas relacionadas con este campo, tales como plantación, riego, pulverización con productos químicos, corte de césped, podado de plantas, eliminación de malezas y basura, entre otros. Mis horarios son muy flexibles por lo que puedo ofrecer mis servicios en distintos horarios del día y cuando el cliente lo crea necesario. \r\n",
+    "about": "<p>Experto en tareas de cuidado y mantenimiento de plantas como flores, arbustos, árboles y césped. Soy una persona con capacidades múltiples para realizar tareas relacionadas con este campo, tales como plantación, riego, pulverización con productos químicos, corte de césped, podado de plantas, eliminación de malezas y basura, entre otros. Mis horarios son muy flexibles por lo que puedo ofrecer mis servicios en distintos horarios del día y cuando el cliente lo crea necesario.</p><br><br>",
     "profession": "JARDINERO",
     "type": "CONSUMIDOR",
     "random": 0.1268,
@@ -2419,72 +2244,50 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "products": [
       {
-        "id": "5b53730fa4b869b5f726457a",
-        "concepto": "ullamco culpa pariatur",
-        "cantidad": 1,
+        "id": "5b53730f37db1251c63bfc39",
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 4,
         "medida": "Hora",
-        "tiempo": null,
+        "tiempo": 3,
         "evidencias": [
-          "5.jpg",
-          "5.jpg",
-          "2.jpg"
+          "jardinero/5.jpg",
+          "jardinero/6.jpg",
+          "jardinero/7.jpg",
+          "jardinero/8.jpg",
+          "jardinero/9.jpg"
         ],
-        "precio": 35333.22
+        "precio": 35000
       },
       {
-        "id": "5b53730f585735f3dd72b7ec",
-        "concepto": "pariatur qui ad",
-        "cantidad": 2,
+        "id": "5b53730fc8176b95b771a36c",
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 6,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "1.jpg",
-          "1.jpg",
-          "5.jpg",
-          "4.jpg"
+          "jardinero/5.jpg",
+          "jardinero/6.jpg",
+          "jardinero/7.jpg",
+          "jardinero/8.jpg",
+          "jardinero/9.jpg"
         ],
-        "precio": 44152.67
+        "precio": 42000
       },
       {
-        "id": "5b53730f92e08c88e0dcc5f8",
-        "concepto": "commodo nulla pariatur",
-        "cantidad": 1,
+        "id": "5b53730fb036a51acb202830",
+        "concepto": "Riego de plantas, fertilización y poda (lo que necesite dentro del tiempo establecido)",
+        "cantidad": 8,
         "medida": "Hora",
-        "tiempo": null,
+        "tiempo": 3,
         "evidencias": [
-          "1.jpg",
-          "1.jpg",
-          "2.jpg",
-          "3.jpg"
+          "jardinero/5.jpg",
+          "jardinero/6.jpg",
+          "jardinero/7.jpg",
+          "jardinero/8.jpg",
+          "jardinero/9.jpg"
         ],
-        "precio": 38067.87
-      },
-      {
-        "id": "5b53730fd326959577338473",
-        "concepto": "dolore Lorem et",
-        "cantidad": 1,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "3.jpg",
-          "2.jpg",
-          "2.jpg"
-        ],
-        "precio": 64333.55
-      },
-      {
-        "id": "5b53730fe37f66d6cb71a765",
-        "concepto": "esse labore ad",
-        "cantidad": 2,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "5.jpg",
-          "4.jpg",
-          "4.jpg"
-        ],
-        "precio": 37643.14
-      }
+        "precio": 79000
+      }  
     ],
     "record": [
       {
@@ -2849,7 +2652,7 @@ export const _PROFILES_MOSK: any[] = [
     "gender": "male",
     "email": "silvastephens@qualitern.com",
     "phone": "(831) 532-2142",
-    "about": "Soy una empleada doméstica con más de 6 años de experiencia en tareas del hogar y de limpieza en domicilios particulares y en empresa. He trabajado por cuenta propia y también para compañías del sector, realizando siempre mis laborales con meticulosidad y a plena satisfacción del cliente.  \r\n",
+    "about": "<p>Soy una empleada doméstica con más de 6 años de experiencia en tareas del hogar y de limpieza en domicilios particulares y en empresa. He trabajado por cuenta propia y también para compañías del sector, realizando siempre mis laborales con meticulosidad y a plena satisfacción del cliente.</p><br><br><br><br><br><br>",
     "profession": "EMPLEADA DOMESTICA",
     "type": "PUBLICADOR",
     "random": 9.2243,
@@ -2918,88 +2721,57 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "products": [
       {
-        "id": "5b53730f1c8e598624ae8577",
-        "concepto": "velit nisi culpa",
-        "cantidad": 1,
+        "id": "5b53730fa5aaaa6a436ebad6",
+        "concepto": "Aseo general incluye pisos, paredes (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 4,
+        "medida": "Hora",
+        "tiempo": 3,
+        "evidencias": [
+          "domestico/5.jpg",
+          "domestico/6.jpg",
+          "domestico/7.jpg"
+        ],
+        "precio": 41380
+      },
+      {
+        "id": "5b53730f567b8d5217569420",
+        "concepto": "Aseo general incluye pisos, paredes,cocina (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 6,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "2.jpg",
-          "5.jpg",
-          "1.jpg",
-          "1.jpg"
+          "domestico/5.jpg",
+          "domestico/6.jpg",
+          "domestico/7.jpg"
         ],
-        "precio": 48089.67
+        "precio": 74510
       },
       {
-        "id": "5b53730f4538453e95ab82e2",
-        "concepto": "officia occaecat dolor",
-        "cantidad": 3,
+        "id": "5b53730f13d4285aa5462872",
+        "concepto": "Aseo general incluye pisos, paredes,cocina, 1 baño (todo depende del tamaño de la casa u oficina)",
+        "cantidad": 8,
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "4.jpg",
-          "1.jpg"
+          "domestico/5.jpg",
+          "domestico/6.jpg",
+          "domestico/7.jpg"
         ],
-        "precio": 49324.54
+        "precio": 85000
       },
       {
-        "id": "5b53730f4e1b2e39d1808551",
-        "concepto": "esse enim sint",
-        "cantidad": 3,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "5.jpg",
-          "3.jpg",
-          "2.jpg",
-          "5.jpg",
-          "3.jpg"
-        ],
-        "precio": 43028.55
-      },
-      {
-        "id": "5b53730f231732fdb0e3e05a",
-        "concepto": "officia sit dolor",
-        "cantidad": 3,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "3.jpg",
-          "3.jpg",
-          "1.jpg",
-          "2.jpg"
-        ],
-        "precio": 40864.66
-      },
-      {
-        "id": "5b53730f71d0d111810d0b09",
-        "concepto": "aliquip incididunt duis",
+        "id": "5b53730fda522d4d314badd9",
+        "concepto": "Cocina para evento o reunión (15 personas aproximadamente)",
         "cantidad": 1,
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
-          "5.jpg",
-          "1.jpg",
-          "3.jpg",
-          "2.jpg"
+          "domestico/5.jpg",
+          "domestico/6.jpg",
+          "domestico/7.jpg"
         ],
-        "precio": 35884.96
-      },
-      {
-        "id": "5b53730f8ba52aab0c99b766",
-        "concepto": "enim est dolor",
-        "cantidad": 3,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "4.jpg",
-          "2.jpg",
-          "3.jpg",
-          "2.jpg"
-        ],
-        "precio": 69569.01
-      }
+        "precio": 75500
+      } 
     ],
     "record": [
       {
