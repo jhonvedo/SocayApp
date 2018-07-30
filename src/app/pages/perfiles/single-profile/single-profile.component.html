@@ -10,7 +10,7 @@
     </mat-card-header>
     <mat-card-content>
 
-      <ui-carousel [infinite]="true" [fade]="false" [speed]="500" height="200px" width="280px">
+      <ui-carousel [infinite]="true" [fade]="false" [speed]="1500" height="200px" width="280px">
         <ui-carousel-item *ngFor="let img of profile.allProducts">
           <img (click)="showImage()" src="assets/img/experiencia/{{img}}" alt="" height="200px" width="280px" draggable="true">
         </ui-carousel-item>

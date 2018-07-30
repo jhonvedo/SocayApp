@@ -489,7 +489,7 @@ export const _PROFILES_MOSK: any[] = [
     "email": "susannesellers@qualitern.com",
     "phone": "(839) 492-2515",
     "about": "<p>Soy una empleada doméstica con más de 6 años de experiencia en tareas del hogar y de limpieza en domicilios particulares y en empresa. He trabajado por cuenta propia y también para compañías del sector, realizando siempre mis laborales con meticulosidad y a plena satisfacción del cliente</p><br><br><br><br><br><br>",
-    "profession": "EMPLEADA DOMESTICA",
+    "profession": "EMPLEADA DOMÉSTICA",
     "type": "CONSUMIDOR",
     "random": 0.0566,
     "education": "BACHILLERATO",
@@ -537,7 +537,7 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills_domentico": [
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "USER"
       },
       {
@@ -547,7 +547,7 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills": [
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "USER"
       },
       {
@@ -816,7 +816,7 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills_domentico": [
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
+        "skill": "COCINA TIPICA(ANTIOQUIA)",
         "verify": "OTHER"
       },
       {
@@ -828,7 +828,7 @@ export const _PROFILES_MOSK: any[] = [
         "verify": "NOTHING"
       },
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "USER"
       }
     ],
@@ -1064,11 +1064,11 @@ export const _PROFILES_MOSK: any[] = [
         "verify": "USER"
       },
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
+        "skill": "COCINA TIPICA(ANTIOQUIA)",
         "verify": "NOTHING"
       },
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
+        "skill": "COCINA TIPICA(ANTIOQUIA)",
         "verify": "NOTHING"
       },
       {
@@ -1262,11 +1262,11 @@ export const _PROFILES_MOSK: any[] = [
         "verify": "USER"
       },
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
+        "skill": "COCINA TIPICA(ANTIOQUIA)",
         "verify": "USER"
       },
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "NOTHING"
       }
     ],
@@ -1731,19 +1731,19 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills_domentico": [
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "NOTHING"
       },
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "USER"
       },
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "OTHER"
       },
       {
-        "skill": "COCINA TIPOCA(ANTIOQUIA)",
+        "skill": "COCINA TIPICA(ANTIOQUIA)",
         "verify": "NOTHING"
       }
     ],
@@ -1982,7 +1982,7 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills_domentico": [
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "OTHER"
       },
       {
@@ -1992,7 +1992,7 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "skills": [
       {
-        "skill": "COCINA TIPOCA(COSTEÑA)",
+        "skill": "COCINA TIPICA(COSTEÑA)",
         "verify": "OTHER"
       },
       {
