@@ -494,7 +494,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 0.0566,
     "education": "BACHILLERATO",
     "address": "217 Canton Court, Richmond, North Carolina, 9551",
-    "img": "92.jpg",
+    "img": "11.jpg",
     "skills_jardineria": [
       {
         "skill": "TRASPLANTE",
@@ -635,7 +635,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 3
           }
         ],
-        "observacion": "Nulla sint cillum adipisicing sint deserunt exercitation deserunt esse excepteur consectetur. Velit cupidatat proident duis reprehenderit duis sunt voluptate ullamco deserunt id amet. Consectetur sint reprehenderit elit et quis eu aute aliquip aliqua commodo fugiat. Nisi aute dolore commodo quis excepteur laborum culpa nisi occaecat sit et veniam deserunt.\r\n",
+        "observacion": "Muy atenta y con un espiritu de servicio en lo alto, me encanto su trato y su puntualidad",
         "skills": [
           "NET"
         ],
@@ -662,7 +662,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Sint cillum nisi et ipsum esse eu in Lorem excepteur elit cillum. Est minim labore ea amet culpa sint ad labore irure. Eu est magna exercitation in culpa nostrud. Do sunt enim quis nisi nisi veniam amet in. Nisi aliquip ea labore excepteur veniam reprehenderit Lorem et dolore nisi enim. Nostrud do nulla duis dolor et enim pariatur occaecat ea qui consectetur fugiat est tempor. Magna non incididunt incididunt dolore ipsum.\r\n",
+        "observacion": "Cocina delicioso y es muy buena trabajadora, tiene buen trato con la gente y en especial con los niños",
         "skills": [
           "XAMARIN",
           "ANGULARJS",
@@ -693,7 +693,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Pariatur ullamco est incididunt ipsum nostrud incididunt. Consequat nostrud ullamco sint qui officia dolore. Mollit nulla nulla qui aute nulla tempor magna fugiat amet nisi. Aute esse aliquip duis velit laboris nulla excepteur proident tempor culpa. Sunt ullamco nostrud velit nisi aute officia nulla sunt.\r\n",
+        "observacion": "Me pareció una persona muy resposable, llego a la hora acordada y realizó las labores que le correspondía",
         "skills": [
           "XAMARIN",
           "JAVA"
@@ -721,7 +721,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 3
           }
         ],
-        "observacion": "Quis ipsum aliqua deserunt ut ipsum. Id do proident nostrud consequat magna pariatur nostrud eu elit id proident exercitation. Velit sunt laboris veniam mollit non incididunt culpa non irure. Labore culpa nostrud sit tempor ipsum amet. Ea dolore eiusmod anim nisi in do elit magna laboris labore culpa laboris. In nostrud consequat duis sunt laboris tempor cupidatat duis ad. Consequat ut sit sit aliquip laboris officia elit.\r\n",
+        "observacion": "Tiene mucho carisma y muchas habilidades en la cocina, a mis hijos les encantó",
         "skills": [
           "XAMARIN",
           "JAVA",
@@ -751,7 +751,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 4
           }
         ],
-        "observacion": "Do nostrud veniam veniam dolore ea aliqua ex. Amet occaecat voluptate elit ad occaecat mollit nostrud commodo nulla adipisicing. Commodo do pariatur excepteur aliquip.\r\n",
+        "observacion": "Excelente trabajo, muy responsable . Cocina delicioso y tiene buen trato con los animales :D 100% recomendada",
         "skills": [
           "ANGULARJS",
           "NET",
@@ -759,148 +759,6 @@ export const _PROFILES_MOSK: any[] = [
           "NET"
         ],
         "fecha": "2018-04-01"
-      },
-      {
-        "cliente": "Swanson",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Sit aliquip eu est est. Fugiat magna do nulla proident quis deserunt esse sunt sint sunt ex. Minim sunt nostrud ipsum qui ut aliquip deserunt culpa eu do ut do. Cupidatat ullamco ea deserunt aute aliqua qui magna nostrud est duis nisi id. Non et proident eiusmod anim amet esse commodo pariatur excepteur culpa aliquip. Qui cupidatat eu officia id.\r\n",
-        "skills": [
-          "NET",
-          "XAMARIN"
-        ],
-        "fecha": "2018-05-27"
-      },
-      {
-        "cliente": "Bryant",
-        "img": "92.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Mollit et nulla Lorem eu ex consequat voluptate commodo anim ad ad. Et quis enim Lorem ut sunt. Voluptate amet nostrud reprehenderit sint. Tempor adipisicing excepteur sunt nulla eiusmod.\r\n",
-        "skills": [
-          "NET",
-          "ANGULAR5",
-          "JAVA"
-        ],
-        "fecha": "2018-02-19"
-      },
-      {
-        "cliente": "Farmer",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Aliquip quis aliqua do ullamco cupidatat dolore non mollit labore. Qui veniam nulla eiusmod Lorem eiusmod magna irure. Exercitation id non non occaecat exercitation amet sunt excepteur nostrud ut duis nulla. Dolore veniam est veniam nulla minim nostrud dolore laboris nisi. Ullamco nisi et aliqua irure culpa occaecat duis ad duis nisi voluptate. Aute excepteur aliquip ipsum esse. Proident voluptate esse non incididunt sint officia est cupidatat eu dolor consequat enim.\r\n",
-        "skills": [
-          "NET",
-          "JAVA"
-        ],
-        "fecha": "2018-04-12"
-      },
-      {
-        "cliente": "Stanley",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Enim aliquip veniam proident pariatur laboris amet irure in Lorem ut. Proident cillum consequat aute veniam proident. Dolor cillum labore non consectetur aute cupidatat minim aliqua pariatur dolore qui elit ea magna. Laboris ad enim consequat laborum nostrud eu nostrud reprehenderit est. Laborum tempor cupidatat veniam mollit enim sunt.\r\n",
-        "skills": [
-          "ANGULARJS",
-          "ANGULAR5",
-          "XAMARIN",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-05-18"
-      },
-      {
-        "cliente": "Drake",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Nisi laboris dolor eu elit eiusmod laborum exercitation pariatur nulla et amet adipisicing minim elit. Id culpa laborum occaecat sunt irure laboris nulla pariatur. Deserunt in est dolor minim duis voluptate voluptate culpa culpa nulla in. Dolore dolor incididunt pariatur esse deserunt aute aliqua minim excepteur id. Aliqua dolore culpa nostrud irure proident mollit aliqua consequat ex. Mollit qui adipisicing dolor duis. Anim nulla labore eiusmod Lorem reprehenderit id culpa do in ex voluptate.\r\n",
-        "skills": [
-          "JAVA"
-        ],
-        "fecha": "2018-03-31"
       }
     ]
   },
@@ -919,7 +777,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 2.248,
     "education": "BACHILLERATO",
     "address": "530 Bijou Avenue, Catherine, Washington, 3512",
-    "img": "37.jpg",
+    "img": "13.jpg",
     "skills_jardineria": [
       {
         "skill": "COMPOSTAJE",
@@ -1054,7 +912,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Minim tempor reprehenderit consectetur aliqua amet ullamco sit ut sit ipsum cupidatat ex. Exercitation aute elit voluptate et do magna labore ullamco amet sit. Dolor est ut incididunt qui dolor do. Adipisicing elit ipsum nulla dolor dolore irure do officia cupidatat duis eu nisi pariatur.\r\n",
+        "observacion": "Es muy atento y respetuoso, me encanto su trabajo ",
         "skills": [
           "XAMARIN",
           "NET"
@@ -1082,7 +940,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Voluptate laboris qui laborum excepteur velit aliqua quis qui. Laboris ipsum dolore eu eu commodo officia veniam minim occaecat officia ut cupidatat. Et elit dolor culpa irure laboris culpa dolor dolor exercitation excepteur minim ullamco pariatur. Do minim ex adipisicing velit id enim tempor anim non adipisicing exercitation adipisicing.\r\n",
+        "observacion": "Trabaja bien y muy rapido se nota que le gusta su labor, muy responsable y talentoso",
         "skills": [
           "ANGULARJS",
           "NET",
@@ -1113,7 +971,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Consectetur amet consectetur adipisicing excepteur sunt quis tempor ad. Est dolore in deserunt ad ullamco laborum incididunt. Sit nulla consectetur sunt commodo commodo fugiat mollit duis voluptate. Lorem ea duis do aliquip et veniam. Velit sint elit sunt irure exercitation eiusmod adipisicing aliquip eiusmod ipsum sint excepteur ullamco.\r\n",
+        "observacion": "Trabajó super bien , me encanto, nunca habia visto mi jardin tan bien , recomendado 100%",
         "skills": [
           "JAVA",
           "ANGULAR5",
@@ -1142,217 +1000,13 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 3
           }
         ],
-        "observacion": "Ipsum nostrud fugiat id elit aliquip. Pariatur non cupidatat consequat ipsum magna nisi consequat deserunt deserunt consequat officia elit laboris dolore. Eiusmod nisi culpa sint magna fugiat sint laborum eu proident sunt eiusmod. Minim adipisicing occaecat fugiat labore duis dolor et occaecat non laborum do duis tempor nostrud. Dolore laboris anim in pariatur esse irure et commodo adipisicing eu sit irure. Id exercitation ut veniam ipsum minim consectetur ut.\r\n",
+        "observacion": "Encantador trabajo, muy rapido, profesional, amable lo recomiendo al 100%",
         "skills": [
           "ANGULAR5",
           "ANGULAR5",
           "NET"
         ],
         "fecha": "2018-02-28"
-      },
-      {
-        "cliente": "Dejesus",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Ex reprehenderit sunt sint aute enim qui voluptate nulla culpa Lorem ut pariatur. Ullamco Lorem tempor officia velit ullamco pariatur deserunt labore. Ut dolore culpa culpa aliqua ad aliquip eu eiusmod fugiat Lorem labore ex ea. Ullamco ad proident elit veniam. Laboris sit ipsum dolore enim esse incididunt enim et veniam dolor excepteur. Do duis consectetur minim aliqua qui qui excepteur duis minim velit elit est duis pariatur.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "NET",
-          "JAVA"
-        ],
-        "fecha": "2018-05-12"
-      },
-      {
-        "cliente": "Villarreal",
-        "img": "92.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Est labore aute do dolore culpa nisi reprehenderit enim cupidatat cillum id ut. Laborum occaecat Lorem exercitation consequat et sunt occaecat nostrud. Laborum duis aliqua labore proident tempor elit officia tempor aliqua eu exercitation do consequat. Id sint nostrud nulla labore do ex labore minim eiusmod est.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "ANGULARJS",
-          "ANGULARJS",
-          "XAMARIN"
-        ],
-        "fecha": "2018-05-10"
-      },
-      {
-        "cliente": "French",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Deserunt nulla do esse adipisicing aute qui consequat ullamco. In dolor eiusmod amet non magna in sunt reprehenderit veniam est occaecat ad id sunt. Dolore deserunt exercitation qui ipsum non sit mollit. Excepteur aliqua ea amet eu velit magna non mollit magna cupidatat aliquip. Sit laboris do fugiat adipisicing sit voluptate ipsum aute aliqua ipsum eiusmod sint velit cillum. Officia ullamco tempor ut mollit.\r\n",
-        "skills": [
-          "JAVA",
-          "JAVA",
-          "XAMARIN"
-        ],
-        "fecha": "2018-04-03"
-      },
-      {
-        "cliente": "Shaffer",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Ipsum ex officia incididunt tempor ipsum voluptate mollit velit culpa exercitation Lorem. Voluptate exercitation est dolor sunt enim in. Do voluptate laboris nulla qui cupidatat velit ipsum eu velit.\r\n",
-        "skills": [
-          "JAVA",
-          "ANGULARJS"
-        ],
-        "fecha": "2018-04-18"
-      },
-      {
-        "cliente": "Riggs",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Pariatur occaecat occaecat quis consectetur eiusmod cupidatat aute aliquip ipsum sint culpa ea sunt. Commodo deserunt fugiat fugiat fugiat irure amet cupidatat duis officia aliquip. Labore tempor sint aliqua excepteur officia ea cillum eiusmod sunt sit. Nostrud cillum amet consectetur elit reprehenderit officia excepteur proident.\r\n",
-        "skills": [
-          "ANGULARJS",
-          "JAVA",
-          "XAMARIN",
-          "JAVA"
-        ],
-        "fecha": "2018-05-23"
-      },
-      {
-        "cliente": "Knight",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Irure enim officia nostrud adipisicing elit culpa irure qui nostrud exercitation mollit culpa minim duis. Voluptate amet anim sunt in et nisi duis. In anim cillum non ea adipisicing minim minim enim ut nulla aliquip excepteur. Ea officia cillum culpa deserunt exercitation aliquip aliquip eiusmod eu aliquip ea ullamco labore. Aliquip est commodo amet enim sit sunt consectetur sint esse ullamco adipisicing in tempor. Consequat incididunt voluptate consectetur occaecat veniam.\r\n",
-        "skills": [
-          "XAMARIN",
-          "JAVA",
-          "NET"
-        ],
-        "fecha": "2018-05-10"
-      },
-      {
-        "cliente": "Pacheco",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Ipsum consequat proident duis occaecat velit veniam aliqua. Cillum irure fugiat nostrud adipisicing et irure aliqua enim mollit nulla cillum ut irure. Ullamco qui elit sit Lorem proident in exercitation incididunt id excepteur ut nulla. Aliquip ea aute esse ex mollit cillum reprehenderit eu fugiat ad. Veniam consectetur incididunt ex cillum. Excepteur esse amet laboris ea aute occaecat incididunt proident excepteur dolor minim nulla aliqua proident.\r\n",
-        "skills": [
-          "NET",
-          "NET",
-          "JAVA"
-        ],
-        "fecha": "2018-04-09"
       }
     ]
   },
@@ -1371,7 +1025,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 0.1562,
     "education": "PREGRADO",
     "address": "924 Grove Street, Temperanceville, California, 6667",
-    "img": "46.jpg",
+    "img": "5.png",
     "skills_jardineria": [
       {
         "skill": "COMPOSTAJE",
@@ -1452,7 +1106,8 @@ export const _PROFILES_MOSK: any[] = [
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
-          "abogado/1.jpg"
+          "abogado/1.jpg",
+          "abogado/2.jpg"
         ],
         "precio": 50250
       },
@@ -1463,7 +1118,8 @@ export const _PROFILES_MOSK: any[] = [
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
-          "abogado/1.jpg"
+          "abogado/1.jpg",
+          "abogado/2.jpg"
         ],
         "precio": 23600
       }
@@ -1775,7 +1431,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 3.5732,
     "education": "PREGRADO",
     "address": "734 Henderson Walk, Boonville, Texas, 1652",
-    "img": "26.jpg",
+    "img": "14.jpg",
     "skills_jardineria": [
       {
         "skill": "COMPOSTAJE",
@@ -1818,10 +1474,6 @@ export const _PROFILES_MOSK: any[] = [
       {
         "skill": "DERECHO PENAL",
         "verify": "USER"
-      },
-      {
-        "skill": "DERECHO PENAL",
-        "verify": "NOTHING"
       }
     ],
     "products": [
@@ -1832,6 +1484,7 @@ export const _PROFILES_MOSK: any[] = [
         "medida": "Servicio",
         "tiempo": 3,
         "evidencias": [
+          "abogado/1.jpg",
           "abogado/2.jpg"
         ],
         "precio": 55400
@@ -1843,6 +1496,7 @@ export const _PROFILES_MOSK: any[] = [
         "medida": "Hora",
         "tiempo": null,
         "evidencias": [
+          "abogado/1.jpg",
           "abogado/2.jpg"
         ],
         "precio": 34600
@@ -2185,7 +1839,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 0.1268,
     "education": "PREGRADO",
     "address": "741 Hendrickson Street, Stollings, Pennsylvania, 7154",
-    "img": "37.jpg",
+    "img": "12.jpg",
     "skills_jardineria": [
       {
         "skill": "COMPOSTAJE",
@@ -2232,10 +1886,6 @@ export const _PROFILES_MOSK: any[] = [
       {
         "skill": "DERECHO PENAL",
         "verify": "USER"
-      },
-      {
-        "skill": "DERECHO PENAL",
-        "verify": "OTHER"
       },
       {
         "skill": "DERECHO EMPRESARIAL",
@@ -2291,129 +1941,11 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "record": [
       {
-        "cliente": "Holt",
+        "cliente": "Cochran",
         "img": "46.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Magna laboris excepteur nostrud labore dolore cillum velit in excepteur voluptate. Ipsum ullamco deserunt veniam in adipisicing qui commodo eiusmod id dolore. Consectetur sunt exercitation dolore veniam cillum consectetur commodo ad sit labore sint aliquip velit. Voluptate duis velit nulla irure et culpa cupidatat duis.\r\n",
-        "skills": [
-          "NET"
-        ],
-        "fecha": "2018-02-05"
-      },
-      {
-        "cliente": "Haynes",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Exercitation enim occaecat ex ipsum labore in. Ullamco qui irure mollit ad laborum occaecat pariatur irure adipisicing do officia incididunt laborum non. Cillum do anim aliqua eu ut et pariatur elit eiusmod sunt anim voluptate magna.\r\n",
-        "skills": [
-          "ANGULARJS",
-          "ANGULAR5",
-          "JAVA",
-          "XAMARIN",
-          "NET"
-        ],
-        "fecha": "2018-05-22"
-      },
-      {
-        "cliente": "Moses",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Anim proident consequat ut proident ea. Labore ea nostrud ullamco exercitation nisi fugiat in in consectetur dolore qui dolor. Sit culpa consectetur minim esse.\r\n",
-        "skills": [
-          "NET",
-          "XAMARIN",
-          "ANGULARJS"
-        ],
-        "fecha": "2018-05-11"
-      },
-      {
-        "cliente": "Bell",
-        "img": "92.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Enim culpa id velit eu reprehenderit eiusmod voluptate labore excepteur enim ex non et deserunt. Commodo ullamco sint laborum nulla cillum labore ut laboris et magna eiusmod consequat nisi ad. Est duis nisi excepteur duis irure laboris proident enim adipisicing labore. Eu mollit sint dolore anim incididunt velit velit aute pariatur eu excepteur commodo. Proident ea aute minim ad. Sint labore consectetur et nisi duis veniam dolor proident officia.\r\n",
-        "skills": [
-          "XAMARIN",
-          "JAVA",
-          "XAMARIN",
-          "XAMARIN",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-04-18"
-      },
-      {
-        "cliente": "Mitchell",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
             "calificacion": 3
           },
           {
@@ -2426,204 +1958,87 @@ export const _PROFILES_MOSK: any[] = [
           },
           {
             "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Do laboris ad ea excepteur duis esse proident commodo ad quis sint nisi cupidatat eu. Nisi proident adipisicing ea elit ex sint mollit. Laboris pariatur velit nostrud pariatur ut sit eu exercitation do. Officia eiusmod adipisicing consectetur ad deserunt dolore eu enim est velit excepteur et ea. Tempor reprehenderit minim aliquip voluptate sint id anim elit Lorem amet nulla fugiat. Enim Lorem cupidatat et et anim exercitation sunt cillum ut ullamco id enim laboris. Cupidatat pariatur laboris consequat et voluptate.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "ANGULARJS",
-          "XAMARIN",
-          "ANGULARJS",
-          "ANGULARJS"
-        ],
-        "fecha": "2018-03-28"
-      },
-      {
-        "cliente": "Hanson",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Adipisicing enim pariatur eiusmod officia commodo velit ullamco aute veniam minim. Ullamco magna aliqua veniam aliquip sunt quis qui amet esse enim incididunt dolore. Voluptate officia quis enim officia ipsum nulla irure magna deserunt consectetur sint. Nulla culpa qui laborum ullamco ipsum ipsum irure tempor adipisicing enim qui consectetur tempor amet. Sunt incididunt dolor culpa consequat non ex eu esse mollit sit.\r\n",
-        "skills": [
-          "JAVA"
-        ],
-        "fecha": "2018-03-03"
-      },
-      {
-        "cliente": "Weeks",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
             "calificacion": 5
           }
         ],
-        "observacion": "In enim magna reprehenderit pariatur amet reprehenderit cillum quis mollit ipsum magna esse. Eu ex adipisicing excepteur veniam. Non qui amet nostrud dolore deserunt ullamco veniam fugiat enim. Irure amet laborum non labore. Proident ex ex veniam eiusmod voluptate proident officia cupidatat et deserunt. Nostrud magna minim in deserunt sit ullamco ad tempor.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "ANGULAR5",
-          "JAVA",
-          "ANGULARJS",
-          "JAVA"
-        ],
-        "fecha": "2018-01-18"
-      },
-      {
-        "cliente": "Herman",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Sit id aute anim laboris pariatur fugiat ad et excepteur. Mollit deserunt duis anim veniam adipisicing quis excepteur minim ad voluptate fugiat ea reprehenderit. Aliquip exercitation veniam enim nisi deserunt mollit adipisicing proident nisi voluptate cupidatat sit incididunt. Fugiat aliqua laboris consequat eu exercitation exercitation consectetur nostrud mollit consequat proident eu minim voluptate. Fugiat ullamco adipisicing sunt pariatur consectetur id labore velit ipsum. Velit commodo ad ut deserunt enim. Eiusmod labore culpa consectetur eiusmod fugiat commodo ea in.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "XAMARIN"
-        ],
-        "fecha": "2018-02-24"
-      },
-      {
-        "cliente": "Richardson",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Officia cupidatat elit exercitation sint labore mollit aliquip nisi culpa sit. Qui proident sit exercitation deserunt. Consectetur do laboris ex magna excepteur incididunt do magna dolor ea labore eiusmod consectetur et. Mollit Lorem velit consequat est sunt sint et duis aute mollit cupidatat qui. Consectetur sit incididunt cillum eu magna ad eu culpa consectetur magna do.\r\n",
-        "skills": [
-          "JAVA",
-          "ANGULARJS",
-          "ANGULARJS",
-          "ANGULARJS",
-          "XAMARIN"
-        ],
-        "fecha": "2018-02-13"
-      },
-      {
-        "cliente": "Church",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Dolore quis proident nostrud aliqua nostrud excepteur. Dolore ea ex consectetur ut magna laborum fugiat anim mollit quis. Amet ullamco deserunt culpa dolor anim velit ex velit voluptate nulla culpa.\r\n",
-        "skills": [
-          "NET",
-          "ANGULARJS",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-01-17"
-      },
-      {
-        "cliente": "Newman",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Duis tempor voluptate exercitation ex eu aliqua quis quis occaecat enim. Sint et laborum cupidatat dolor qui. Aliquip aute ut aliqua esse adipisicing dolor deserunt adipisicing anim id proident. Nisi et occaecat non eu dolor veniam nulla et ullamco. Fugiat in sit proident ea. Exercitation deserunt magna sunt qui consectetur sunt enim cillum id commodo. Commodo labore quis id reprehenderit ea ullamco.\r\n",
+        "observacion": "Es muy atento y respetuoso, me encanto su trabajo ",
         "skills": [
           "XAMARIN",
           "NET"
         ],
-        "fecha": "2018-03-22"
+        "fecha": "2018-06-26"
       },
       {
-        "cliente": "Roach",
+        "cliente": "Cleveland",
         "img": "37.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
-            "calificacion": 4
+            "calificacion": 5
           },
           {
             "nombre": "Responsabilidad",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 5
+          }
+        ],
+        "observacion": "Trabaja bien y muy rapido se nota que le gusta su labor, muy responsable y talentoso",
+        "skills": [
+          "ANGULARJS",
+          "NET",
+          "JAVA",
+          "JAVA",
+          "NET"
+        ],
+        "fecha": "2018-06-17"
+      },
+      {
+        "cliente": "Albert",
+        "img": "46.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Puntualidad",
             "calificacion": 4
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 5
+          }
+        ],
+        "observacion": "Trabajó super bien , me encanto, nunca habia visto mi jardin tan bien , recomendado 100%",
+        "skills": [
+          "JAVA",
+          "ANGULAR5",
+          "NET"
+        ],
+        "fecha": "2018-04-07"
+      },
+      {
+        "cliente": "Lawson",
+        "img": "37.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 3
           },
           {
             "nombre": "Puntualidad",
@@ -2631,19 +2046,20 @@ export const _PROFILES_MOSK: any[] = [
           },
           {
             "nombre": "Modales",
-            "calificacion": 5
+            "calificacion": 3
           }
         ],
-        "observacion": "Eu veniam nisi officia reprehenderit. Laborum occaecat ea qui non id sunt consequat quis anim Lorem sint id. Consectetur officia cillum sunt est proident do officia occaecat esse in veniam eiusmod irure aliqua.\r\n",
+        "observacion": "Encantador trabajo, muy rapido, profesional, amable lo recomiendo al 100%",
         "skills": [
-          "JAVA",
           "ANGULAR5",
-          "XAMARIN"
+          "ANGULAR5",
+          "NET"
         ],
-        "fecha": "2018-07-16"
+        "fecha": "2018-02-28"
       }
     ]
-  },{
+  },
+  {
     "id": "5b53730f598a0a21cddba1a0",
     "guid": "a709af06-8b5b-4ba2-818c-8a6a9af11c3f",
     "balance": "$2,425.97",
@@ -2658,7 +2074,7 @@ export const _PROFILES_MOSK: any[] = [
     "random": 9.2243,
     "education": "TECNICO",
     "address": "635 Mill Avenue, Mulberry, District Of Columbia, 8675",
-    "img": "26.jpg",
+    "img": "20.jpg",
     "skills_jardineria": [
       {
         "skill": "REPRODUCCIÓN",
@@ -2775,243 +2191,35 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "record": [
       {
-        "cliente": "Cash",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Sunt ad labore pariatur magna occaecat dolore et commodo veniam non minim consectetur. Ut amet laborum in elit consequat nulla proident. In excepteur id excepteur irure qui laboris in veniam dolor. Ex fugiat consequat veniam sit voluptate culpa irure sunt commodo amet ea. Sint sunt adipisicing ad ipsum. Enim occaecat consequat exercitation qui nostrud ad.\r\n",
-        "skills": [
-          "NET",
-          "NET",
-          "ANGULARJS",
-          "JAVA"
-        ],
-        "fecha": "2018-03-22"
-      },
-      {
-        "cliente": "Little",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Nisi labore ad ut labore occaecat. Adipisicing in non id ut cupidatat dolore laboris nostrud irure nisi sunt nulla. Dolore laborum adipisicing officia ullamco eiusmod eu ad non minim tempor est. Mollit aute dolore non occaecat deserunt culpa voluptate. Reprehenderit cupidatat nisi ipsum aute aliqua id exercitation sint voluptate culpa cillum veniam. Pariatur adipisicing tempor id enim anim commodo ea excepteur ullamco sunt tempor. Duis ex veniam est quis Lorem ut mollit sunt eiusmod anim.\r\n",
-        "skills": [
-          "XAMARIN",
-          "NET"
-        ],
-        "fecha": "2018-06-27"
-      },
-      {
-        "cliente": "Adams",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Voluptate cupidatat amet cillum cupidatat anim do ipsum exercitation aliquip labore qui sit duis amet. Eiusmod excepteur id deserunt laborum duis mollit laborum ad enim culpa. Officia occaecat elit elit consectetur est consectetur reprehenderit ullamco laboris sint. Eiusmod laboris ad minim aliquip voluptate dolore voluptate incididunt ut aliqua. Ipsum officia Lorem irure ad laboris.\r\n",
-        "skills": [
-          "XAMARIN",
-          "XAMARIN",
-          "JAVA",
-          "XAMARIN",
-          "ANGULARJS"
-        ],
-        "fecha": "2018-01-25"
-      },
-      {
-        "cliente": "Puckett",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Ea sunt dolore sint dolore elit. Ullamco exercitation proident nulla aute voluptate officia proident laborum. Commodo cillum anim id dolore esse. Aliquip nulla duis consectetur nulla quis elit dolor irure deserunt.\r\n",
-        "skills": [
-          "ANGULARJS",
-          "XAMARIN",
-          "XAMARIN",
-          "XAMARIN",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-03-01"
-      },
-      {
-        "cliente": "Wheeler",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Minim cupidatat laborum consectetur do elit aliquip esse dolor ex. Magna culpa anim nostrud quis. Eu do amet sunt mollit ut eu. Sit laboris minim aliquip fugiat nulla ex magna laboris. Tempor aute est officia voluptate consectetur incididunt est. Ad velit tempor qui voluptate laborum laboris. Laboris tempor duis aliqua ex ex sint voluptate excepteur mollit id ullamco anim laboris.\r\n",
-        "skills": [
-          "ANGULARJS"
-        ],
-        "fecha": "2018-02-22"
-      },
-      {
-        "cliente": "Wilson",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Qui duis eiusmod est velit cupidatat duis id sunt cillum consequat irure duis ad. Do aute non id ut irure adipisicing fugiat labore dolor sint magna est sint. Incididunt nostrud culpa officia deserunt laboris anim aute nostrud labore. Nulla velit esse consectetur adipisicing elit velit consequat. Sint dolor commodo nostrud velit irure velit excepteur anim reprehenderit incididunt consectetur esse dolor esse.\r\n",
-        "skills": [
-          "ANGULARJS",
-          "XAMARIN",
-          "JAVA",
-          "ANGULARJS"
-        ],
-        "fecha": "2018-06-01"
-      },
-      {
-        "cliente": "Armstrong",
+        "cliente": "Manning",
         "img": "92.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Irure qui sint eu exercitation ad amet duis veniam cillum fugiat mollit. Consectetur veniam eu dolore ullamco cillum velit. Anim occaecat officia officia sint dolore tempor est dolore veniam. Sint enim ex consectetur duis consectetur ad ullamco cillum.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "JAVA",
-          "XAMARIN"
-        ],
-        "fecha": "2018-03-13"
-      },
-      {
-        "cliente": "Byers",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
             "calificacion": 5
           },
           {
+            "nombre": "Responsabilidad",
+            "calificacion": 3
+          },
+          {
             "nombre": "Puntualidad",
-            "calificacion": 4
+            "calificacion": 5
           },
           {
             "nombre": "Modales",
             "calificacion": 3
           }
         ],
-        "observacion": "Duis labore commodo tempor labore voluptate est cupidatat officia sunt pariatur quis. Consectetur sunt ex consequat tempor consectetur anim officia magna commodo officia et aute minim ullamco. Pariatur sunt proident deserunt ex in occaecat. Laborum aute magna labore Lorem ad sunt eu. Velit minim duis est velit consectetur sit proident occaecat elit sint incididunt irure.\r\n",
+        "observacion": "Muy atenta y con un espiritu de servicio en lo alto, me encanto su trato y su puntualidad",
         "skills": [
-          "JAVA",
-          "ANGULAR5",
           "NET"
         ],
-        "fecha": "2018-01-13"
+        "fecha": "2018-06-08"
       },
       {
-        "cliente": "Shepherd",
-        "img": "46.jpg",
+        "cliente": "Phelps",
+        "img": "92.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -3027,52 +2235,26 @@ export const _PROFILES_MOSK: any[] = [
           },
           {
             "nombre": "Modales",
-            "calificacion": 4
+            "calificacion": 5
           }
         ],
-        "observacion": "Deserunt et pariatur aute nostrud qui reprehenderit exercitation consequat laboris adipisicing. Et aute nisi consequat deserunt quis veniam do. Quis qui do ipsum do commodo officia esse est dolor exercitation.\r\n",
+        "observacion": "Cocina delicioso y es muy buena trabajadora, tiene buen trato con la gente y en especial con los niños",
         "skills": [
           "XAMARIN",
-          "JAVA",
-          "NET"
-        ],
-        "fecha": "2018-05-06"
-      },
-      {
-        "cliente": "Shannon",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Voluptate consequat reprehenderit qui voluptate nulla irure. Incididunt nostrud esse nostrud sit nisi id veniam aute consectetur veniam Lorem labore reprehenderit. Lorem culpa ut mollit elit fugiat irure magna anim sunt duis non voluptate esse culpa. Nulla consequat duis occaecat voluptate consequat labore sit enim velit consectetur eu. Velit anim non qui nulla Lorem anim cillum. Laborum laboris reprehenderit elit do officia nostrud aliquip deserunt in sit consectetur aliquip minim ex. Anim est in officia officia sit minim nostrud laboris mollit nostrud.\r\n",
-        "skills": [
+          "ANGULARJS",
           "NET",
-          "JAVA"
+          "XAMARIN",
+          "XAMARIN"
         ],
-        "fecha": "2018-03-27"
+        "fecha": "2018-01-18"
       },
       {
-        "cliente": "Pittman",
+        "cliente": "West",
         "img": "37.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
-            "calificacion": 4
+            "calificacion": 3
           },
           {
             "nombre": "Responsabilidad",
@@ -3084,14 +2266,75 @@ export const _PROFILES_MOSK: any[] = [
           },
           {
             "nombre": "Modales",
+            "calificacion": 5
+          }
+        ],
+        "observacion": "Me pareció una persona muy resposable, llego a la hora acordada y realizó las labores que le correspondía",
+        "skills": [
+          "XAMARIN",
+          "JAVA"
+        ],
+        "fecha": "2018-05-21"
+      },
+      {
+        "cliente": "Fischer",
+        "img": "26.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Modales",
             "calificacion": 3
           }
         ],
-        "observacion": "Labore magna eiusmod cupidatat cupidatat excepteur. Nostrud ex Lorem est adipisicing sunt irure. Tempor eu sunt non ea cupidatat amet voluptate occaecat. Est occaecat cillum adipisicing proident quis reprehenderit veniam voluptate dolore. Aute officia incididunt et reprehenderit eiusmod fugiat aute do proident. Deserunt adipisicing tempor minim fugiat voluptate dolore et eu. Deserunt quis deserunt exercitation enim.\r\n",
+        "observacion": "Tiene mucho carisma y muchas habilidades en la cocina, a mis hijos les encantó",
         "skills": [
-          "JAVA"
+          "XAMARIN",
+          "JAVA",
+          "XAMARIN",
+          "ANGULAR5"
         ],
-        "fecha": "2018-05-13"
+        "fecha": "2018-04-16"
+      },
+      {
+        "cliente": "Landry",
+        "img": "92.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 4
+          }
+        ],
+        "observacion": "Excelente trabajo, muy responsable . Cocina delicioso y tiene buen trato con los animales :D 100% recomendada",
+        "skills": [
+          "ANGULARJS",
+          "NET",
+          "ANGULAR5",
+          "NET"
+        ],
+        "fecha": "2018-04-01"
       }
     ]
   }

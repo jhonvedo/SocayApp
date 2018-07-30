@@ -17,7 +17,7 @@ export class PerfilesComponent implements OnInit {
 
  
   public profile_list:any=_PROFILES_MOSK;
-  public arr:any;
+  
   desktopGap = '24px';
   mobileGap = '16px';
 
@@ -31,9 +31,7 @@ export class PerfilesComponent implements OnInit {
   constructor(private settingservice:SettingsService) { }
 
   ngOnInit() {   
-    this.arr = Array.apply(null, {
-      length: this.profile_list.length/2
-    }).map(Number.call, Number);
+   
     
   }
 
