@@ -616,7 +616,7 @@ export const _PROFILES_MOSK: any[] = [
     "record": [
       {
         "cliente": "Manning",
-        "img": "92.jpg",
+        "img": "6.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -643,7 +643,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Phelps",
-        "img": "92.jpg",
+        "img": "6.png",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -893,7 +893,7 @@ export const _PROFILES_MOSK: any[] = [
     "record": [
       {
         "cliente": "Cochran",
-        "img": "46.jpg",
+        "img": "22.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -921,7 +921,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Cleveland",
-        "img": "37.jpg",
+        "img": "8.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -952,7 +952,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Albert",
-        "img": "46.jpg",
+        "img": "15.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -981,7 +981,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Lawson",
-        "img": "37.jpg",
+        "img": "19.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -1127,7 +1127,7 @@ export const _PROFILES_MOSK: any[] = [
     "record": [
       {
         "cliente": "Carney",
-        "img": "92.jpg",
+        "img": "7.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -1146,7 +1146,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 5
           }
         ],
-        "observacion": "Excepteur est mollit sit duis non reprehenderit in magna id magna eu sunt. Ea Lorem esse Lorem culpa elit labore deserunt consectetur minim cupidatat ea labore. Occaecat pariatur do excepteur est laboris consequat labore reprehenderit ut et eu officia. Eiusmod amet ut consequat adipisicing ea nostrud nulla excepteur et reprehenderit qui. Mollit aliquip pariatur commodo deserunt esse do.\r\n",
+        "observacion": "Muy profesional , excelente asesoría ",
         "skills": [
           "XAMARIN",
           "XAMARIN",
@@ -1157,7 +1157,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Santiago",
-        "img": "92.jpg",
+        "img": "46.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -1176,7 +1176,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 3
           }
         ],
-        "observacion": "Sint esse ut labore ea excepteur. Deserunt exercitation in mollit ea qui pariatur est culpa. Amet ullamco eu cillum eiusmod minim veniam velit cillum eu ex laborum irure adipisicing pariatur. Consectetur aliquip ad enim esse culpa Lorem.\r\n",
+        "observacion": "Un trato muy respetuoso, me gusto su forma de asesorar y trabajar , lo recomiendo al 100%",
         "skills": [
           "XAMARIN",
           "NET",
@@ -1186,7 +1186,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Mcfadden",
-        "img": "92.jpg",
+        "img": "22.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -1205,7 +1205,7 @@ export const _PROFILES_MOSK: any[] = [
             "calificacion": 4
           }
         ],
-        "observacion": "Dolore Lorem quis dolore deserunt. Proident in eiusmod consequat aliqua magna duis magna nulla amet deserunt quis. Voluptate anim deserunt tempor ex pariatur sint sit veniam. Proident Lorem ad ea voluptate ea excepteur do. Magna enim incididunt irure tempor velit exercitation id excepteur adipisicing. Ex esse reprehenderit nostrud exercitation sit Lorem aliquip consequat.\r\n",
+        "observacion": "Tiene mucho conociniento y experiencia en su campo",
         "skills": [
           "ANGULAR5",
           "NET",
@@ -1213,206 +1213,6 @@ export const _PROFILES_MOSK: any[] = [
           "ANGULAR5"
         ],
         "fecha": "2018-01-09"
-      },
-      {
-        "cliente": "Jensen",
-        "img": "92.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Labore labore ut magna deserunt qui reprehenderit aute consequat. Id in elit aliqua velit minim irure culpa cupidatat. Consectetur mollit ullamco velit laborum aliquip consectetur Lorem in est exercitation enim laboris mollit incididunt. Officia aute culpa occaecat aute proident est dolore culpa.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "XAMARIN",
-          "JAVA"
-        ],
-        "fecha": "2018-02-11"
-      },
-      {
-        "cliente": "Dunn",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 3
-          }
-        ],
-        "observacion": "Aliqua ullamco Lorem aliqua ex cillum excepteur nostrud dolor exercitation dolor culpa incididunt cupidatat excepteur. Dolore amet proident ex labore esse consectetur quis incididunt esse culpa exercitation eu et. Est anim est mollit Lorem ullamco ullamco adipisicing. Minim proident nulla aliqua ad eiusmod. Ex anim commodo ut enim.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "NET",
-          "JAVA",
-          "ANGULARJS",
-          "JAVA"
-        ],
-        "fecha": "2018-06-02"
-      },
-      {
-        "cliente": "Workman",
-        "img": "26.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Cupidatat veniam est anim veniam. Esse ullamco excepteur dolor consequat consectetur sunt irure ipsum laboris elit excepteur. Velit ex sunt occaecat duis magna veniam exercitation voluptate.\r\n",
-        "skills": [
-          "ANGULARJS"
-        ],
-        "fecha": "2018-06-26"
-      },
-      {
-        "cliente": "Cooke",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Pariatur enim tempor deserunt non excepteur cupidatat commodo. Ipsum nisi ut excepteur duis incididunt mollit reprehenderit ullamco officia sunt sunt esse do eiusmod. Nostrud non id dolore amet sit incididunt aute consectetur nisi.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-07-19"
-      },
-      {
-        "cliente": "Rodgers",
-        "img": "92.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 5
-          }
-        ],
-        "observacion": "Id consequat qui laboris aliqua. Velit commodo qui proident veniam cupidatat commodo incididunt. Anim do fugiat esse elit sunt laboris.\r\n",
-        "skills": [
-          "ANGULAR5",
-          "NET",
-          "ANGULARJS",
-          "XAMARIN"
-        ],
-        "fecha": "2018-01-29"
-      },
-      {
-        "cliente": "Gutierrez",
-        "img": "46.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 5
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Sint commodo laborum nisi exercitation Lorem aliqua in occaecat. Laboris magna sunt do eiusmod nisi esse enim non. Do commodo consequat ad amet amet ullamco do aute ullamco. Irure ex esse sunt nostrud irure sint qui laborum sunt fugiat. Velit occaecat irure et proident minim. Laboris sit aliquip fugiat elit.\r\n",
-        "skills": [
-          "NET"
-        ],
-        "fecha": "2018-04-19"
-      },
-      {
-        "cliente": "Rhodes",
-        "img": "37.jpg",
-        "calificaciones": [
-          {
-            "nombre": "Satisfacción",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Responsabilidad",
-            "calificacion": 4
-          },
-          {
-            "nombre": "Puntualidad",
-            "calificacion": 3
-          },
-          {
-            "nombre": "Modales",
-            "calificacion": 4
-          }
-        ],
-        "observacion": "Nulla fugiat magna in ex qui amet nostrud pariatur aute incididunt labore voluptate irure. Enim Lorem qui excepteur duis veniam amet aute proident. Sit anim nostrud anim nulla mollit ipsum ut incididunt commodo proident aliquip non eiusmod. Dolor amet officia est sint dolore enim elit. Reprehenderit ea laborum pariatur consectetur tempor officia deserunt. Ex esse et nisi minim id esse magna.\r\n",
-        "skills": [
-          "JAVA",
-          "ANGULAR5"
-        ],
-        "fecha": "2018-07-20"
       }
     ]
   },
@@ -1478,28 +1278,93 @@ export const _PROFILES_MOSK: any[] = [
     ],
     "products": [
       {
-        "id": "5b53730fa2c44f943aee8679",
-        "concepto": "Redacción de contratos laborales y de alquiler",
-        "cantidad": 1,
-        "medida": "Servicio",
-        "tiempo": 3,
-        "evidencias": [
-          "abogado/1.jpg",
-          "abogado/2.jpg"
+        "cliente": "Carney",
+        "img": "7.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 5
+          }
         ],
-        "precio": 55400
+        "observacion": "Muy profesional , excelente asesoría ",
+        "skills": [
+          "XAMARIN",
+          "XAMARIN",
+          "NET",
+          "ANGULARJS"
+        ],
+        "fecha": "2018-01-14"
       },
       {
-        "id": "5b53730f693dabcafb9a6fd0",
-        "concepto": "asesoria juridica",
-        "cantidad": 1,
-        "medida": "Hora",
-        "tiempo": null,
-        "evidencias": [
-          "abogado/1.jpg",
-          "abogado/2.jpg"
+        "cliente": "Santiago",
+        "img": "46.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 3
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 3
+          }
         ],
-        "precio": 34600
+        "observacion": "Un trato muy respetuoso, me gusto su forma de asesorar y trabajar , lo recomiendo al 100%",
+        "skills": [
+          "XAMARIN",
+          "NET",
+          "ANGULARJS"
+        ],
+        "fecha": "2018-03-26"
+      },
+      {
+        "cliente": "Mcfadden",
+        "img": "22.jpg",
+        "calificaciones": [
+          {
+            "nombre": "Satisfacción",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Responsabilidad",
+            "calificacion": 4
+          },
+          {
+            "nombre": "Puntualidad",
+            "calificacion": 5
+          },
+          {
+            "nombre": "Modales",
+            "calificacion": 4
+          }
+        ],
+        "observacion": "Tiene mucho conociniento y experiencia en su campo",
+        "skills": [
+          "ANGULAR5",
+          "NET",
+          "NET",
+          "ANGULAR5"
+        ],
+        "fecha": "2018-01-09"
       }
     ],
     "record": [
@@ -1942,7 +1807,7 @@ export const _PROFILES_MOSK: any[] = [
     "record": [
       {
         "cliente": "Cochran",
-        "img": "46.jpg",
+        "img": "22.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -1970,7 +1835,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Cleveland",
-        "img": "37.jpg",
+        "img": "8.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -2001,7 +1866,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Albert",
-        "img": "46.jpg",
+        "img": "15.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -2030,7 +1895,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Lawson",
-        "img": "37.jpg",
+        "img": "19.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -2192,7 +2057,7 @@ export const _PROFILES_MOSK: any[] = [
     "record": [
       {
         "cliente": "Manning",
-        "img": "92.jpg",
+        "img": "6.jpg",
         "calificaciones": [
           {
             "nombre": "Satisfacción",
@@ -2219,7 +2084,7 @@ export const _PROFILES_MOSK: any[] = [
       },
       {
         "cliente": "Phelps",
-        "img": "92.jpg",
+        "img": "6.png",
         "calificaciones": [
           {
             "nombre": "Satisfacción",

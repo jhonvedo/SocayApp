@@ -22,7 +22,10 @@ export class ProfileRateComponent implements OnInit {
   total=0;
   selectedIndex = 0;
   lastIndex = 3;
-  resumenFactura:any={};
+//  resumenFactura:any={};
+resumenFactura:any ={"direccion":"CR 1A # 45 B sur 86","municipio":"Sabaneta","telefono":"3452345","fecha":"2018-08-03T05:00:00.000Z","nombretitular":"Jhon Alexander","apellidoTitular":"Acevedo Montoya","numeroTarjeta":"12345678910","cvc":"234","mesExpiracion":"03","anioExpiracion":"2024"};
+
+
 
   
   private _habilitarContinuar : boolean;
